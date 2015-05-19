@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" SchemaVersion="10" SoundbankVersion="112">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Brice\Desktop\TouchMe0.2\Assets\wwise touch me\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Brice\Desktop\TouchMe0.2\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Brice\Desktop\TouchMe0.2\Assets\StreamingAssets\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Brice\Desktop\TouchMe0.2\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<SoundBanks>
+		<SoundBank Id="117997239" Language="SFX">
+			<ShortName>Ariette</ShortName>
+			<Path>Ariette.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

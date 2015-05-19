@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: ae25c267d3dba624e8e5e654b5b2af6e
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hips_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 960
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_2
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 960
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_3
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 960
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 480
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_6
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 480
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_7
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 480
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Hips_11
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 0
+        width: 422
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

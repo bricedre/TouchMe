@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{8D72B1FF-DDA7-CCA4-9315-35B0D92D5642}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AudioManager.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\GestureworksInstance.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Main.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\MainConfig.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GestureEvent.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GestureEventArray.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GesturePhase.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GestureWorks.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GwNative.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\GwStructs.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\NamespaceDoc.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\PointEventArray.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Sources\Utils.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\TouchCube.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\TouchCube_Abs.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\TouchToParent.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Tuio2touch\GW_touchClient.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Tuio2touch\GW_touchListener.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Tuio2touch\TuioInstance.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Utils\FingerPointParticles.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Utils\HitManager.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Utils\ShowFPS.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Utils\TouchCircle.cs" />
+     <Compile Include="Assets\Commons\Scripts\GestureWorks\Utils\TouchObject.cs" />
+     <Compile Include="Assets\Commons\Scripts\SuperClasses\Common.cs" />
+     <Compile Include="Assets\Commons\Scripts\SuperClasses\CommonGW.cs" />
+     <Compile Include="Assets\Commons\Scripts\SwiftyCam_GUI.cs" />
+     <Compile Include="Assets\Commons\Scripts\SwiftyCam_WORLD.cs" />
+     <Compile Include="Assets\Commons\Scripts\SwiftyTouch_Gestures\SwiftyTouch_Swipe.cs" />
+     <Compile Include="Assets\Commons\Scripts\SwiftyTouch_Gestures\SwiftyTouch_SwipeColumn.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\OSC.NET\OSCBundle.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\OSC.NET\OSCMessage.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\OSC.NET\OSCPacket.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\OSC.NET\OSCReceiver.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\OSC.NET\OSCTransmitter.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioClient.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioContainer.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioCursor.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioListener.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioObject.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioPoint.cs" />
+     <Compile Include="Assets\Commons\Scripts\TUIO\TuioTime.cs" />
+     <Compile Include="Assets\Commons\Scripts\Utils\DestroyMeAfter.cs" />
+     <Compile Include="Assets\Commons\Scripts\Utils\ParticlesAfterDelete.cs" />
+     <Compile Include="Assets\Demo\Gesture_Cube.cs" />
+     <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
+     <Compile Include="Assets\Scripts\DialogScript.cs" />
+     <Compile Include="Assets\Scripts\DialogsManager.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\HUDclick.cs" />
+     <Compile Include="Assets\Scripts\HandleScript.cs" />
+     <Compile Include="Assets\Scripts\PatternScript.cs" />
+     <Compile Include="Assets\Scripts\PointsParticleS.cs" />
+     <Compile Include="Assets\Scripts\StepScript.cs" />
+     <Compile Include="Assets\Scripts\StretchScript.cs" />
+     <Compile Include="Assets\Scripts\TickleScript.cs" />
+     <Compile Include="Assets\Scripts\TouchManager.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAudioFormat.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAuxSendValue.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkBankContent.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkBusType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkCallbackSerializer.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkCallbackType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkChannelConfig.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkChannelConfigType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkChannelOrdering.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkCurveInterpolation.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkDeviceSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkExternalSourceInfo.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkGroupType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkInitSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkListenerPosition.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkMemSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkMeteringFlags.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkMusicPlaylistCallbackInfo.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkMusicSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkNodeType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkObjectInfo.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkOutputSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkPannerType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkPanningRule.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkPlaylistArray.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkPositionSourceType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkPositioningInfo.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkRamp.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkSegmentInfo.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkSoundPosition.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkSourceSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkStreamMgrSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkVector.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\DynamicSequenceType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\EnvelopePoint.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\ErrorCode.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\ErrorLevel.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\Iterator.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\MultiPositionType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\Playlist.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\PlaylistItem.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\PreparationType.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\RTPCValue_type.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\WwiseObjectID.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\WwiseObjectIDext.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\_ArrayPoolDefault.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\_ArrayPoolLEngineDefault.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkAudioAPI_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkAudioOutputType_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkMemPoolAttributes_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkPlatformInitSettings_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkSoundEnginePINVOKE_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkSoundEngine_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkSoundQuality_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Generated\Windows\AkThreadProperties_Windows.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Handwritten\AkAuxSendArray.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Handwritten\AkCallbackManager.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Handwritten\AkPositionArray.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkAmbient.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkAudioListener.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkBank.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkBankManager.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkBankPathUtil.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkDragDropHelper.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkEnvironment.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkEnvironmentPortal.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkEvent.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkEventCallbackData.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkGameObj.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkGameObjEnvironmentData.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkGameObjPosOffsetData.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkGameObjPositionData.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkInitializer.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkMemBankLoader.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkState.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkSwitch.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTerminator.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerBase.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerCollisionEnter.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerCollisionExit.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerDisable.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerEnable.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerEnter.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerExit.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseDown.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseEnter.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseExit.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
+     <Compile Include="Assets\test.cs" />
+     <Compile Include="Assets\testDialogAudio.cs" />
+     <Compile Include="Assets\variableDrivenAnimation.cs" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
+     <None Include="Assets\Wwise\Readme.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
+     <None Include="Assets\StreamingAssets\Init.txt" />
+     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Init.txt" />
+     <None Include="Assets\StreamingAssets\PluginInfo.xml" />
+     <None Include="Assets\StreamingAssets\SoundbanksInfo.xml" />
+     <None Include="Assets\StreamingAssets\Ariette.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\StreamingAssets\{81552825-9DF7-4A6E-95A3-CB62F8CB6BEE}.txt" />
+     <None Include="Assets\StreamingAssets\English(US)\Ariette.txt" />
+     <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\WwiseSettings.xml" />
+     <None Include="Assets\StreamingAssets\Main.txt" />
+ <Reference Include="GestureWorksCoreNET32">
+ <HintPath>Assets\Plugins\GestureWorks\Core\GestureWorksCoreNET32.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

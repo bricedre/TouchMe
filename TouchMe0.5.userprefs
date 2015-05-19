@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\variableDrivenAnimation.cs">
+    <Files>
+      <File FileName="TouchMe0.5.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="78" Column="30" />
+      <File FileName="..\..\Documents\Hatarake\Assets\Script\ProgressBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\variableDrivenAnimation.cs" Line="24" Column="40" />
+      <File FileName="Assets\Scripts\AnimatedSprite.cs" Line="12" Column="47" />
+      <File FileName="Assets\Scripts\PointsParticleS.cs" Line="23" Column="4" />
+      <File FileName="Assets\Scripts\PatternScript.cs" Line="35" Column="37" />
+      <File FileName="Assets\Scripts\DialogsManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

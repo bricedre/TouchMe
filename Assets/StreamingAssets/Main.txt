@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2862285649	Touch_stop			\Default Work Unit\Touch_stop	
+	4034399387	Touch_play			\Default Work Unit\Touch_play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1047135937	Sfx_Touch	C:\Users\Brice\Desktop\TouchMe0.2\Assets\wwise touch me\.cache\Windows\SFX\placeholder_F279EFD8.wem		\Actor-Mixer Hierarchy\Main\Sfx_Touch		67852
+
