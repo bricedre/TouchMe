@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32C069E4-4C14-4B49-8C9E-A691A7C9CFA6}" SchemaVersion="69">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{32C069E4-4C14-4B49-8C9E-A691A7C9CFA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixing all" ID="{49B5F4E7-5986-4991-9B1F-9E6CF7D14DEA}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{DCA1C0D9-066D-44D4-80D2-B570602A095C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+						<ObjectRef Name="Corps personnage" ID="{FCE6EC36-35DD-46B6-8F86-CB14D06BB4C4}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+						<ObjectRef Name="Feedbacks" ID="{964F6A93-C4E1-4489-B939-7AFA3E7AA3DD}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F64F6AD2-F69E-4A55-A8D3-4F630AD36F8A}" SchemaVersion="69">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F64F6AD2-F69E-4A55-A8D3-4F630AD36F8A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="geste_masseur" ID="{A53333C4-71B1-4FFF-AFC0-F80A11867DD9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

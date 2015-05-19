@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A4591E33-4760-4DBC-B298-62AB101F908A}" SchemaVersion="69">
+	<AudioObjects>
+		<WorkUnit Name="Main" ID="{A4591E33-4760-4DBC-B298-62AB101F908A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sfx_Touch" ID="{09436080-0709-4281-A270-A5F735F9BA63}" ShortID="441476854" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="placeholder" ID="{99A82C47-0195-4E7C-A461-3FB7DC3BC1CB}" ShortID="1047135937">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="0.383707790320035"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>placeholder.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="placeholder" ID="{99A82C47-0195-4E7C-A461-3FB7DC3BC1CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Ariette" ID="{A5ED4BF8-7505-440B-BFDF-F7682140095D}" ShortID="663564447">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Dialogues scriptés" ID="{B34089DC-28E1-4E7F-A52D-77CD8A9BAB81}" ShortID="655348747">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_DS_00" ID="{8BD8E0D6-D7ED-4A69-B1D4-C5F0268AA09E}" ShortID="404117064" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_00" ID="{951BC769-A99F-47C6-8D29-0985374589B1}" ShortID="279227010">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_00" ID="{951BC769-A99F-47C6-8D29-0985374589B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_01" ID="{926F1A50-C00F-4027-B373-D9D723C6020F}" ShortID="580736075" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_01" ID="{D44E4398-415A-4C57-A27D-88C816FECBC7}" ShortID="445653079">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_01" ID="{D44E4398-415A-4C57-A27D-88C816FECBC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_02" ID="{40006543-0A69-4E16-83D3-21C6210D2D83}" ShortID="569045316" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_02" ID="{2726D6E8-1DA7-4F2E-8117-7B9229BB8E17}" ShortID="629954644">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_02" ID="{2726D6E8-1DA7-4F2E-8117-7B9229BB8E17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_03" ID="{6F3CB08A-6EF6-4C4E-ACDB-79450BD8347F}" ShortID="877791237" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_03" ID="{FF170327-D955-477F-8B1C-70B67872E96C}" ShortID="413509774">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_03" ID="{FF170327-D955-477F-8B1C-70B67872E96C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_04" ID="{CB54722A-77AE-4476-B7BF-C56F8F5B1EE7}" ShortID="779846559" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_04" ID="{74BCB34D-E9F2-4E31-AF2A-25635B46D319}" ShortID="1050183987">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_04" ID="{74BCB34D-E9F2-4E31-AF2A-25635B46D319}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_05" ID="{B880E250-3B3F-4E3D-B050-020364A44C50}" ShortID="862515515" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_05" ID="{C5041E4C-05FA-4F50-A973-2EBBE038C62A}" ShortID="916607912">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_05" ID="{C5041E4C-05FA-4F50-A973-2EBBE038C62A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_06" ID="{36311B37-F80F-4CF1-8968-00DE6E5C68B8}" ShortID="821038423" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_06" ID="{0B395E4B-9F6E-4FA7-9151-85152A9EB5D9}" ShortID="715438565">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_06" ID="{0B395E4B-9F6E-4FA7-9151-85152A9EB5D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_07" ID="{2FADE84D-4A5F-4FBC-B887-C8FECC18CB9A}" ShortID="659958795" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_07" ID="{C80ED4B2-29DD-4659-85BA-50BFFF7B5C70}" ShortID="892937165">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_07" ID="{C80ED4B2-29DD-4659-85BA-50BFFF7B5C70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_08" ID="{24626DCA-92F5-4533-BD19-2180CEF6D28C}" ShortID="50669908" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_08" ID="{B9473ED0-46AA-4E1B-89B5-1B61285E91BF}" ShortID="885898654">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_08" ID="{B9473ED0-46AA-4E1B-89B5-1B61285E91BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DS_09" ID="{80DFFDD7-7AF9-4567-B265-D40724FFBC9E}" ShortID="572559222" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DS_09" ID="{CF989662-012A-4AD2-98CF-431CEAF67567}" ShortID="128911939">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DS_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DS_09" ID="{CF989662-012A-4AD2-98CF-431CEAF67567}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Dialogues contextuels positifs" ID="{6C02865E-C610-4036-88AB-73E9621B5F1C}" ShortID="14577924">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_DC_00" ID="{55AD55D1-3E82-4021-A080-FA227BAD9AE2}" ShortID="601534812" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_00" ID="{ED8B4281-11CA-48EC-96FE-60A290A256CB}" ShortID="424574448">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_00" ID="{ED8B4281-11CA-48EC-96FE-60A290A256CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_01" ID="{CEAB1E98-FDFC-418A-BD06-22F051FB7D82}" ShortID="838340329" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_01" ID="{619D9C42-7BE6-42B7-AFD1-34767FD00602}" ShortID="208019977">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_01" ID="{619D9C42-7BE6-42B7-AFD1-34767FD00602}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_02" ID="{487A7AF3-2ACC-4E0F-82BD-6AD4AA392DD8}" ShortID="753477702" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_02" ID="{BFB1320B-75F2-4993-9E15-DAA3BCE5C004}" ShortID="92920117">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_02" ID="{BFB1320B-75F2-4993-9E15-DAA3BCE5C004}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_03" ID="{431FFC62-F7D8-42BC-BC4D-82CB6678D5B5}" ShortID="134577014" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_03" ID="{AFE244F1-606D-4DA6-A08A-8EC8A4EF01D3}" ShortID="972847680">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_03" ID="{AFE244F1-606D-4DA6-A08A-8EC8A4EF01D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_04" ID="{1E4471DC-B27B-44A7-B224-7D2B41E4F3A7}" ShortID="1065959969" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_04" ID="{7D9866F1-52D3-4D9E-A222-3CE497B45DBF}" ShortID="107111175">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_04" ID="{7D9866F1-52D3-4D9E-A222-3CE497B45DBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_05" ID="{DFD3451B-A0E9-46E6-905B-23E8BF2D65C2}" ShortID="261008051" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_05" ID="{9AF46597-E2F7-4B5D-A8CA-BEBD3EA62202}" ShortID="385892569">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_05" ID="{9AF46597-E2F7-4B5D-A8CA-BEBD3EA62202}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_06" ID="{791F339B-7223-4D49-8EAE-2EE381198EB4}" ShortID="525713114" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_06" ID="{251FE5BF-95B5-4A33-87CA-C787B76948F4}" ShortID="216021773">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_06" ID="{251FE5BF-95B5-4A33-87CA-C787B76948F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_07" ID="{38C60B46-91CB-4E49-B1DB-724864C715A5}" ShortID="293620203" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_07" ID="{C9302975-0576-4155-8CCD-E8622837EBC6}" ShortID="548982887">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_07" ID="{C9302975-0576-4155-8CCD-E8622837EBC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_08" ID="{7D0140A6-6D74-4529-9303-61BD4C50C78F}" ShortID="42261888" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_08" ID="{2AFF14FB-84DB-4A57-A2A6-A10D0A46B5DF}" ShortID="625662060">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_08" ID="{2AFF14FB-84DB-4A57-A2A6-A10D0A46B5DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_09" ID="{1AE84762-78D5-43A2-A6BD-35641B65114B}" ShortID="607017282" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_09" ID="{96E4C57F-3E87-4791-ACE8-1FF50E025FC3}" ShortID="1008663791">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_09" ID="{96E4C57F-3E87-4791-ACE8-1FF50E025FC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_10" ID="{C8D574EA-82BE-4FCE-9425-821C8D84FF1E}" ShortID="289111932" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_10" ID="{B8956B61-19C4-446A-9296-696DB7D62848}" ShortID="213593618">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_10" ID="{B8956B61-19C4-446A-9296-696DB7D62848}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_11" ID="{31DEB457-C1B1-4E7E-8A5F-97E29F75DC95}" ShortID="616729112" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_11" ID="{E92A917B-3C54-4DB1-A644-6E78DD701F16}" ShortID="76755841">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_11" ID="{E92A917B-3C54-4DB1-A644-6E78DD701F16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_12" ID="{5C2AF5E3-1C07-4121-8039-EF8DA4AF9D1A}" ShortID="203729972" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_12" ID="{17D63973-2591-4CE6-8C6D-524DD80A4DB0}" ShortID="30672478">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_12.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_12" ID="{17D63973-2591-4CE6-8C6D-524DD80A4DB0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Dialogues contextuels négatifs" ID="{F6EEE194-38ED-4505-A934-C1600EA1FEA6}" ShortID="705700166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_DC_13" ID="{FB2F337B-5A1E-49B1-8D5F-A09DA99A879A}" ShortID="951496071" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_13" ID="{F0E95FD2-F961-4C55-AAED-31D485ECF357}" ShortID="604148447">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_13.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_13" ID="{F0E95FD2-F961-4C55-AAED-31D485ECF357}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_14" ID="{7B15CFCE-7FA8-4C6F-8D7E-D4CE2070A0CE}" ShortID="12710802" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_14" ID="{0131A31A-159B-4A6F-9DF3-10C6DD1FFC35}" ShortID="91531096">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_14.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_14" ID="{0131A31A-159B-4A6F-9DF3-10C6DD1FFC35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_15" ID="{A2BD4049-B114-4354-8187-AB21EAB68946}" ShortID="732913799" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_15" ID="{0DC8BAF3-914B-4054-96AC-631BC555555D}" ShortID="617918127">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_15.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_15" ID="{0DC8BAF3-914B-4054-96AC-631BC555555D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_16" ID="{533EBE10-03FB-431F-9DA3-8F1FC527279E}" ShortID="253441091" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_16" ID="{FC5BD482-7230-489B-BDA2-DA284044AC0E}" ShortID="768350057">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_16" ID="{FC5BD482-7230-489B-BDA2-DA284044AC0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_17" ID="{E1FE79B8-8F37-4ADA-9A21-09348700693D}" ShortID="306379386" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_17" ID="{9B958C84-6C3D-48E8-8FCF-6685CF331918}" ShortID="320121308">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_17.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_17" ID="{9B958C84-6C3D-48E8-8FCF-6685CF331918}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_18" ID="{A3383CE3-134B-4C94-AF94-EF175EB492FB}" ShortID="56580158" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_18" ID="{41EEF9D8-54E5-4F25-98F4-EFBF7B7CA6E3}" ShortID="733206503">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_18.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_18" ID="{41EEF9D8-54E5-4F25-98F4-EFBF7B7CA6E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_19" ID="{8EA3E740-8723-4943-A348-DF69C9E063DB}" ShortID="54697122" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_19" ID="{337153B4-BA9E-4658-AC2B-B40A391450FD}" ShortID="524101620">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_19" ID="{337153B4-BA9E-4658-AC2B-B40A391450FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_20" ID="{3CF4FBEE-CEB4-4EDB-8CA3-C78C36D37054}" ShortID="543211552" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_20" ID="{242A2A23-5426-4C77-8B09-4A8ACB59FE4F}" ShortID="927581670">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_20.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_20" ID="{242A2A23-5426-4C77-8B09-4A8ACB59FE4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_21" ID="{2AE8EC2F-488A-4E66-9F86-7EE3870FFF2C}" ShortID="335715044" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_21" ID="{195C241A-87D0-42EE-AE6B-10E0A00EC0FD}" ShortID="863375651">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_21.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_21" ID="{195C241A-87D0-42EE-AE6B-10E0A00EC0FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_22" ID="{5B3D2C0B-5586-4948-AA57-FE24A670CED5}" ShortID="701044036" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_22" ID="{8A0C31D9-5786-441F-9383-EECE5901D81D}" ShortID="877485264">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_22.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_22" ID="{8A0C31D9-5786-441F-9383-EECE5901D81D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_23" ID="{B1843406-9323-417B-AE31-671ADD27BAF0}" ShortID="491188635" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_23" ID="{B2395C98-7549-497C-AA79-E6E6F19F02B1}" ShortID="48346560">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_23.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_23" ID="{B2395C98-7549-497C-AA79-E6E6F19F02B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_24" ID="{7075A0C0-A71C-48DD-A85B-15CF1FD3B1CF}" ShortID="759278819" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_24" ID="{7D6A7804-900C-4187-8AF5-E609C35EB8C0}" ShortID="350487260">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_24.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_24" ID="{7D6A7804-900C-4187-8AF5-E609C35EB8C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_25" ID="{6A2B1AA5-6D73-418B-9B19-3EA11615575E}" ShortID="823992488" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_25" ID="{D7DE332E-AC18-421B-B75C-EC0E01E72F7A}" ShortID="602126849">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_25.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_25" ID="{D7DE332E-AC18-421B-B75C-EC0E01E72F7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_26" ID="{7D1CF4C0-BF98-4523-AF03-4D38005B6E07}" ShortID="460236646" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_26" ID="{9F8B4836-DC41-4E4C-BAFA-09C7BC08CE9F}" ShortID="8589898">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_26.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_26" ID="{9F8B4836-DC41-4E4C-BAFA-09C7BC08CE9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_DC_27" ID="{E4CAADB9-0AB3-4E8F-BE40-1248287321B3}" ShortID="1049752244" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_DC_27" ID="{23ADB878-B89F-4EC9-8CD7-F09BC5DC7360}" ShortID="691985487">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_DC_27.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_DC_27" ID="{23ADB878-B89F-4EC9-8CD7-F09BC5DC7360}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Répliques simples positives" ID="{60B0A876-A736-43F5-8A8E-13B171AA1C84}" ShortID="916788944">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_RS_05" ID="{A594D594-878D-40E4-BE87-090AD4763390}" ShortID="1007018520" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_05" ID="{3BF32CF0-0C9B-4137-8201-D8E82C953A5B}" ShortID="833292592">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_05" ID="{3BF32CF0-0C9B-4137-8201-D8E82C953A5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_00" ID="{B74D4EC0-F612-4B3A-A428-945D7A54DF89}" ShortID="229263432" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_00" ID="{1C590CAC-0EB7-4245-B591-7974CA2DAB20}" ShortID="561721429">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_00" ID="{1C590CAC-0EB7-4245-B591-7974CA2DAB20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_01" ID="{A44C4225-EAA5-4569-B07D-DCFF4DAAD87B}" ShortID="911957309" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_01" ID="{76814BDB-A1C2-419D-AFF0-FFF7DC6DCDE3}" ShortID="1049570217">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_01" ID="{76814BDB-A1C2-419D-AFF0-FFF7DC6DCDE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_04" ID="{95A47420-2C34-42FC-AD45-53A73271F64C}" ShortID="434162025" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_04" ID="{B911FBF2-9AE6-43FE-8EAD-A6CDD6AF6973}" ShortID="708375333">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_04" ID="{B911FBF2-9AE6-43FE-8EAD-A6CDD6AF6973}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_03" ID="{CCF38305-6F54-4630-B546-CF0AEDF6BD46}" ShortID="434030162" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_03" ID="{3A430A0F-435A-4E5A-B9C9-8B3B40D09320}" ShortID="493603571">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_03" ID="{3A430A0F-435A-4E5A-B9C9-8B3B40D09320}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_02" ID="{741CDB7C-AA4C-4A16-9FDE-3A30A9EE8202}" ShortID="876544544" Type="Voice">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_02" ID="{58932D79-7901-43CA-A970-71A77FCCD6DA}" ShortID="762083414">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_02" ID="{58932D79-7901-43CA-A970-71A77FCCD6DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Répliques simples négatives" ID="{F0DD180F-FC49-4BCA-AC41-C80B591BD6ED}" ShortID="981095345">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_RS_06" ID="{05BE8B65-4FCB-4BF6-8109-5F31F3E7C2A9}" ShortID="736524928" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_06" ID="{124F928D-AF40-431E-BA06-711D12FBAB99}" ShortID="128589999">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_06" ID="{124F928D-AF40-431E-BA06-711D12FBAB99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_07" ID="{89F654E8-C583-436E-A693-88C660333327}" ShortID="727754518" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_07" ID="{94876751-D3EC-4456-A88E-6A422E049EA9}" ShortID="10894816">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_07" ID="{94876751-D3EC-4456-A88E-6A422E049EA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_08" ID="{2C5D2AB4-84F5-4EED-A527-6E5DDCA03335}" ShortID="259650392" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_08" ID="{63760F91-47E7-4E11-A356-8A8739CE6063}" ShortID="469354625">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_08" ID="{63760F91-47E7-4E11-A356-8A8739CE6063}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RS_09" ID="{AFA2758B-DFDF-4147-9C2A-B7FEC1A664EE}" ShortID="902011703" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RS_09" ID="{28062157-A505-4609-A22F-7AB6DC3F19D0}" ShortID="912874749">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RS_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RS_09" ID="{28062157-A505-4609-A22F-7AB6DC3F19D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Répliques actions" ID="{17E73ED6-4363-4E48-B838-B7717E7FB064}" ShortID="885266065">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ARI_RA_00" ID="{C00D4F6C-012B-48FC-8BCB-8CCD8D5C9A56}" ShortID="322288546" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_00" ID="{C6F6C2E2-5E3A-47C7-8682-8961CFF8949F}" ShortID="59512995">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_00" ID="{C6F6C2E2-5E3A-47C7-8682-8961CFF8949F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_01" ID="{167ED69E-97B9-471F-88B0-C897F5C9D430}" ShortID="802149888" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_01" ID="{BD531423-AC05-4F97-B28B-A2AE989A3D3A}" ShortID="797264161">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_01" ID="{BD531423-AC05-4F97-B28B-A2AE989A3D3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_02" ID="{DF5DC082-2381-45FF-9CE7-F514D3E70E78}" ShortID="838838644" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_02" ID="{28368D4E-AAEC-4B8A-9607-D80C17468CEA}" ShortID="1040749475">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_02" ID="{28368D4E-AAEC-4B8A-9607-D80C17468CEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_03" ID="{31A02015-8C20-4912-AFE1-42EBA3FFF9E9}" ShortID="102292572" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_03" ID="{EA3FED9C-B6B3-4971-B109-423ED77E7B02}" ShortID="170380169">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_03" ID="{EA3FED9C-B6B3-4971-B109-423ED77E7B02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_04" ID="{46D6F10D-DB74-4029-8ACA-D4F960396FD3}" ShortID="959211508" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_04" ID="{930E9479-58F0-40F5-974C-66436117C4B1}" ShortID="870810140">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_04" ID="{930E9479-58F0-40F5-974C-66436117C4B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_05" ID="{D783D7AA-1C7D-4EDB-9D05-68017C4A37FF}" ShortID="535331753" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_05" ID="{B9245CEA-0539-4BED-A89C-72AB2F566E04}" ShortID="857627629">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_05" ID="{B9245CEA-0539-4BED-A89C-72AB2F566E04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ARI_RA_06" ID="{A39A3F2C-BCF9-48B4-BCEC-4C015C2AC504}" ShortID="1036508939" Type="Voice">
+									<PropertyList>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARI_RA_06" ID="{96D4D2C5-C37F-4FAA-B9A9-6430C541BD1D}" ShortID="438312180">
+											<Language>English(US)</Language>
+											<AudioFile>ARI_RA_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ARI_RA_06" ID="{96D4D2C5-C37F-4FAA-B9A9-6430C541BD1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Corps personnage" ID="{FCE6EC36-35DD-46B6-8F86-CB14D06BB4C4}" ShortID="870731625">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Corps Elastique" ID="{D3E8E9D5-2793-463C-8CFD-9CB34A104554}" ShortID="936078912">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{08577B2A-C6C2-42FF-965B-6AFCE1EF7938}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_cello_bend_01" ID="{3F8459D0-D879-41F1-B99B-56CFF73F6E72}" ShortID="516363732" Type="SoundFX">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_cello_bend_01" ID="{F065464F-F2A2-4AA6-994C-E3F6C40FB0FD}" ShortID="309444620">
+											<Language>SFX</Language>
+											<AudioFile>sfx_cello_bend_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_cello_bend_01" ID="{F065464F-F2A2-4AA6-994C-E3F6C40FB0FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_cello_bend_02" ID="{3D6C99AA-20D1-47CF-8647-9DBF3FF8DF21}" ShortID="296876473" Type="SoundFX">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_cello_bend_02" ID="{C37CB27F-17FC-4E37-A057-A7EE6DF8F50B}" ShortID="430552">
+											<Language>SFX</Language>
+											<AudioFile>sfx_cello_bend_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_cello_bend_02" ID="{C37CB27F-17FC-4E37-A057-A7EE6DF8F50B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_timbale_bend_02" ID="{DAD955C9-75AE-4236-AA65-E6CF1E896622}" ShortID="333069179" Type="SoundFX">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_timbale_bend_02" ID="{CCEB4C3F-3313-49DF-B552-B42B497E7B3F}" ShortID="202612126">
+											<Language>SFX</Language>
+											<AudioFile>sfx_timbale_bend_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_timbale_bend_02" ID="{CCEB4C3F-3313-49DF-B552-B42B497E7B3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_timbale_bend_01" ID="{2323AB10-21C2-4975-997E-ECB7CDC5B876}" ShortID="344957303" Type="SoundFX">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_timbale_bend_01" ID="{1A317E02-214C-48D6-9D5D-031E6010EE0E}" ShortID="501601501">
+											<Language>SFX</Language>
+											<AudioFile>sfx_timbale_bend_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_timbale_bend_01" ID="{1A317E02-214C-48D6-9D5D-031E6010EE0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_cello_bend_03" ID="{7820C1FC-6F10-43D4-9AB6-4770E69501E1}" ShortID="369285315" Type="SoundFX">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_cello_bend_03" ID="{40002DF0-8E5D-4223-A968-37886FEC2F28}" ShortID="501795174">
+											<Language>SFX</Language>
+											<AudioFile>sfx_cello_bend_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_cello_bend_03" ID="{40002DF0-8E5D-4223-A968-37886FEC2F28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Feedbacks" ID="{964F6A93-C4E1-4489-B939-7AFA3E7AA3DD}" ShortID="1072703467">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Feedbacks positifs" ID="{733D3606-9CD5-43EC-8F70-4114AB287009}" ShortID="606787819">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_celesta_glissendo" ID="{D65DD53A-827B-4191-90CB-BEE6C45AD456}" ShortID="229581574" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_celesta_glissendo" ID="{2F908FCD-54DF-4BDD-B015-D88D66450E01}" ShortID="861141021">
+											<Language>SFX</Language>
+											<AudioFile>sfx_celesta_glissendo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_celesta_glissendo" ID="{2F908FCD-54DF-4BDD-B015-D88D66450E01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_glockenspiel_arpege" ID="{461C43AA-8C56-4846-BCC5-C1989FD32A80}" ShortID="712190810" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_glockenspiel_arpege" ID="{F005EC3D-2BA9-4E52-AC33-FA0C15261AA0}" ShortID="112231237">
+											<Language>SFX</Language>
+											<AudioFile>sfx_glockenspiel_arpege.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_glockenspiel_arpege" ID="{F005EC3D-2BA9-4E52-AC33-FA0C15261AA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_glockenspiel_glissendo" ID="{E0E4E72D-C17E-43A5-8B2A-C4FD3FE01C4A}" ShortID="717504391" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_glockenspiel_glissendo" ID="{F8D27A1F-4632-42D1-8834-CCC98DA29946}" ShortID="1034140585">
+											<Language>SFX</Language>
+											<AudioFile>sfx_glockenspiel_glissendo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_glockenspiel_glissendo" ID="{F8D27A1F-4632-42D1-8834-CCC98DA29946}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_orchestral_phrase" ID="{98D4B6D1-83A6-45C2-8B06-D58ECBD686CD}" ShortID="108716630" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_orchestral_phrase" ID="{D72A8443-075A-4D82-B361-5617440A3BE7}" ShortID="1000975136">
+											<Language>SFX</Language>
+											<AudioFile>sfx_orchestral_phrase.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_orchestral_phrase" ID="{D72A8443-075A-4D82-B361-5617440A3BE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_tiptoe_01" ID="{D9792D35-4747-4751-AA60-D461ECE0EA60}" ShortID="10970722" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_tiptoe_01" ID="{6C4637D5-24CC-45E5-8F80-AB733C22D6F7}" ShortID="751754525">
+											<Language>SFX</Language>
+											<AudioFile>sfx_tiptoe_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_tiptoe_01" ID="{6C4637D5-24CC-45E5-8F80-AB733C22D6F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_tiptoe_orchestral_02" ID="{450244DF-37D9-42CB-823A-CBA879EF7259}" ShortID="27102856" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_tiptoe_orchestral_02" ID="{7029609A-FF10-408B-8252-140904F6C058}" ShortID="633792477">
+											<Language>SFX</Language>
+											<AudioFile>sfx_tiptoe_orchestral_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_tiptoe_orchestral_02" ID="{7029609A-FF10-408B-8252-140904F6C058}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Feedbacks negatifs" ID="{CA00F0F4-43F8-4537-BB2A-83077BBF2826}" ShortID="990944674">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_tiptoe_02" ID="{1DB19001-E9A9-40BE-9810-2D93F6131167}" ShortID="577123127" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_tiptoe_02" ID="{CE7FE6BC-56A3-4DDF-A8B9-C9D061B10082}" ShortID="318011411">
+											<Language>SFX</Language>
+											<AudioFile>sfx_tiptoe_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_tiptoe_02" ID="{CE7FE6BC-56A3-4DDF-A8B9-C9D061B10082}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_tiptoe_orchestral_01" ID="{9C307F52-C82F-4189-9642-B7CF3936AD6D}" ShortID="742589247" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_tiptoe_orchestral_01" ID="{7FE5F4B9-21B3-44D4-9512-D115F7578B7E}" ShortID="709380184">
+											<Language>SFX</Language>
+											<AudioFile>sfx_tiptoe_orchestral_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_tiptoe_orchestral_01" ID="{7FE5F4B9-21B3-44D4-9512-D115F7578B7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_xylophone glissendo" ID="{EB7B4B2A-A88A-4A20-A22C-A15409C95FC9}" ShortID="395932770" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_xylophone glissendo" ID="{BAB3D8D2-41BD-440D-B0E7-6E2B4627E12E}" ShortID="63798917">
+											<Language>SFX</Language>
+											<AudioFile>sfx_xylophone glissendo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_xylophone glissendo" ID="{BAB3D8D2-41BD-440D-B0E7-6E2B4627E12E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Music" ID="{DCA1C0D9-066D-44D4-80D2-B570602A095C}" ShortID="634692226">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mus_radiomassage" ID="{3401A1F1-2E05-426A-AE7B-2DC4739DA542}" ShortID="474819590" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mus_radiomassage" ID="{25CE40CC-094F-4203-84D1-0FF88704B876}" ShortID="963936515">
+									<Language>SFX</Language>
+									<AudioFile>mus_radiomassage.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mus_radiomassage" ID="{25CE40CC-094F-4203-84D1-0FF88704B876}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Gestes" ID="{AA0F9E4F-BF1E-48C4-BB2C-790AC97D4D3B}" ShortID="271423423">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{FA00E3DA-2C91-4765-8463-26245F9AD5AE}" ShortID="203944334">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="geste_masseur" ID="{A53333C4-71B1-4FFF-AFC0-F80A11867DD9}" WorkUnitID="{F64F6AD2-F69E-4A55-A8D3-4F630AD36F8A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{74EE6F61-E65B-44D7-9A1F-AFAA3DE0CE7F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>50</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>25</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{332DD9F8-9BC8-4B0B-A323-942AB1DA4F8E}" ShortID="527126677">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="geste_masseur" ID="{A53333C4-71B1-4FFF-AFC0-F80A11867DD9}" WorkUnitID="{F64F6AD2-F69E-4A55-A8D3-4F630AD36F8A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{978FB39E-7168-4203-A8D4-CC47FF30F44E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>6.12102</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="My_default_conversion" ID="{A3B7DC87-6A73-47EE-94E5-5CD042043363}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_frottements_peau_01" ID="{9F7B152B-0753-4047-892B-B9C36542B4AE}" ShortID="334621662" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_frottements_peau_01" ID="{D3BFE0F2-3077-478B-95B7-725C7137D0AD}" ShortID="387724217">
+									<Language>SFX</Language>
+									<AudioFile>sfx_frottements_peau_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_frottements_peau_01" ID="{D3BFE0F2-3077-478B-95B7-725C7137D0AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_frottements_peau_02" ID="{DCD9CE35-9BF0-4949-BB92-ED42A022CEDF}" ShortID="538245495" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_frottements_peau_02" ID="{2D3CBDC1-5DEB-466C-A280-6673E47356C5}" ShortID="816793400">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.232338530169242"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.89057392844003"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sfx_frottements_peau_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_frottements_peau_02" ID="{2D3CBDC1-5DEB-466C-A280-6673E47356C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_frottements_peau_03" ID="{C814ADCB-EEAB-445C-B5A5-CE8CDF530A92}" ShortID="324193718" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{45FB4451-ADD5-45FB-894D-BF29181AE403}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4FB2ED6-4189-4486-9C84-FBC1E090AF1C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_frottements_peau_03" ID="{9380942F-B321-4D87-BA96-63AAADDC3102}" ShortID="694006320">
+									<Language>SFX</Language>
+									<AudioFile>sfx_frottements_peau_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_frottements_peau_03" ID="{9380942F-B321-4D87-BA96-63AAADDC3102}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

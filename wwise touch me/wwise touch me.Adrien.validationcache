@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="69">
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1917440870" DateHigh="30443130"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Actor-Mixer Hierarchy\Main.wwu" DateLow="1917500873" DateHigh="30443130"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Attenuations\Default Work Unit.wwu" DateLow="2863138236" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Control Surface Sessions\Default Work Unit.wwu" DateLow="2863228242" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Conversion Settings\Default Work Unit.wwu" DateLow="2863198240" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2018604800" DateHigh="30419325"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2863158238" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Effects\Default Work Unit.wwu" DateLow="2863388251" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Effects\Factory Effects.wwu" DateLow="2018604800" DateHigh="30419325"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Events\Default Work Unit.wwu" DateLow="1917470872" DateHigh="30443130"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Game Parameters\Default Work Unit.wwu" DateLow="2863368250" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2863458255" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2863248243" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Mixing Sessions\Default Work Unit.wwu" DateLow="2863178239" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Modulators\Default Work Unit.wwu" DateLow="2863218241" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Presets\Default Work Unit.wwu" DateLow="2863408252" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Queries\Default Work Unit.wwu" DateLow="2863448254" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Queries\Factory Queries.wwu" DateLow="2018604800" DateHigh="30419325"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\SoundBanks\Default Work Unit.wwu" DateLow="2184716157" DateHigh="30443130"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2863428253" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\States\Default Work Unit.wwu" DateLow="2863328247" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Switches\Default Work Unit.wwu" DateLow="2863318247" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\Triggers\Default Work Unit.wwu" DateLow="2863478256" DateHigh="30443128"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\wwise touch me.Adrien.wsettings" DateLow="3282228454" DateHigh="30443130"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\wwise touch me.wproj" DateLow="3840224123" DateHigh="30443128"/>
+</ValidationCache>
