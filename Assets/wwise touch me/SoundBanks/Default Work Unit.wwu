@@ -5,7 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{2D465CF0-7B22-4CD8-85E7-966D4084D33A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="positifs" ID="{D8A40609-CC9D-4D98-B59E-9610071E3C15}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="corps_elastique" ID="{1DC8E65E-E300-4565-930C-7832C03DCE6F}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Touch_play" ID="{095B7365-0251-4192-8E8F-E2A80A80C9B8}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_play_01" ID="{E8678785-B993-48C1-913B-F2772757F3CE}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="negatifs" ID="{FE21A4A8-7970-4E28-95E4-6BCF6E99527A}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Touch_stop" ID="{E4CB93C4-448A-465C-B42C-5B661CACA38B}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -15,7 +19,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_ARI_RS_05" ID="{62BC6500-15F5-49EE-B485-7D8F665511BE}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_00" ID="{599F3404-8675-4BAB-967B-FB16D915A2E2}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="positifs" ID="{D8A40609-CC9D-4D98-B59E-9610071E3C15}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RS_01" ID="{1AB5990A-1FCB-40FB-9B1E-2C3271C6266A}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_08" ID="{84807112-BC99-412E-AD62-8799E98A0640}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_13" ID="{513FE912-2302-4AB2-8E43-33EE55539690}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
@@ -33,13 +36,11 @@
 						<ObjectRef Name="Play_ARI_RS_00" ID="{5926434C-AE6E-416F-B858-8DD59F61ECA7}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DS_09" ID="{9011B756-8BA4-47C6-9ACE-B85EC4CEC2BC}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_06" ID="{21DD105B-8B23-403D-B3DB-9946D0A21F82}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="corps_elastique" ID="{1DC8E65E-E300-4565-930C-7832C03DCE6F}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_03" ID="{B3BF0560-8893-4D55-A7CE-A4763C73E3FA}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_25" ID="{0E1B2B71-D865-4105-8C37-525CFE10B8C0}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_17" ID="{BCE17A72-8E4B-4EE7-A9C6-126BD7B7AE64}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_19" ID="{E94E7F72-C12F-4A89-83C7-4ED4B7641896}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DS_04" ID="{9F6AA681-4DC0-43DC-9760-146399A79474}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="music_play_01" ID="{E8678785-B993-48C1-913B-F2772757F3CE}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_02" ID="{69B0B388-29F5-41A6-A67A-A09C093F453C}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_27" ID="{D0050091-976A-48D8-A624-6CD96E64C075}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_15" ID="{2B155F91-8BEA-46E6-92BC-3ADE63D6EF74}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
@@ -48,7 +49,6 @@
 						<ObjectRef Name="Play_ARI_RS_07" ID="{5E3642A0-27BC-4DCB-89B6-3AD855B622C9}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_04" ID="{7B4C09A1-7DD5-44F2-9490-C9BDA14DD13C}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_26" ID="{3FACD0A3-7600-4FF5-95A6-8FCDB6863427}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="negatifs" ID="{FE21A4A8-7970-4E28-95E4-6BCF6E99527A}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RS_08" ID="{BE0203B5-1A5D-4C3D-BB7F-C5ED7CEFFEDE}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_DC_21" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ARI_RA_01" ID="{EC2485B9-D4A1-4A4D-B42A-6A57106825B0}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}" Filter="7" Origin="Manual"/>

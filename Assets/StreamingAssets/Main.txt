@@ -1,7 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2862285649	Touch_stop			\Default Work Unit\Touch_stop	
-	4034399387	Touch_play			\Default Work Unit\Touch_play	
+	636831067	music_play_01			\Default Work Unit\Musique\music_play_01	
+	1461307238	positifs			\Default Work Unit\Feedbacks\positifs	
+	2862285649	Touch_stop			\Default Work Unit\Mouvements\Touch_stop	
+	3951105902	negatifs			\Default Work Unit\Feedbacks\negatifs	
+	4031138612	corps_elastique			\Default Work Unit\Corps Personnage\corps_elastique	
+	4034399387	Touch_play			\Default Work Unit\Mouvements\Touch_play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3323087076	geste_masseur			\Default Work Unit\geste_masseur	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1047135937	Sfx_Touch	C:\Users\Brice\Desktop\TouchMe0.2\Assets\wwise touch me\.cache\Windows\SFX\placeholder_F279EFD8.wem		\Actor-Mixer Hierarchy\Main\Sfx_Touch		67852
+	430552	sfx_cello_bend_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_cello_bend_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Corps personnage\Corps Elastique\sfx_cello_bend_02		45698
+	63798917	sfx_xylophone glissendo	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_xylophone glissendo_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks negatifs\sfx_xylophone glissendo		24621
+	112231237	sfx_glockenspiel_arpege	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_glockenspiel_arpege_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_glockenspiel_arpege		34691
+	202612126	sfx_timbale_bend_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_timbale_bend_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Corps personnage\Corps Elastique\sfx_timbale_bend_02		36638
+	309444620	sfx_cello_bend_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_cello_bend_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Corps personnage\Corps Elastique\sfx_cello_bend_01		24782
+	318011411	sfx_tiptoe_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_tiptoe_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks negatifs\sfx_tiptoe_02		19173
+	501601501	sfx_timbale_bend_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_timbale_bend_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Corps personnage\Corps Elastique\sfx_timbale_bend_01		62885
+	501795174	sfx_cello_bend_03	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_cello_bend_03_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Corps personnage\Corps Elastique\sfx_cello_bend_03		37093
+	633792477	sfx_tiptoe_orchestral_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_tiptoe_orchestral_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_tiptoe_orchestral_02		74662
+	709380184	sfx_tiptoe_orchestral_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_tiptoe_orchestral_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks negatifs\sfx_tiptoe_orchestral_01		41672
+	751754525	sfx_tiptoe_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_tiptoe_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_tiptoe_01		21151
+	816793400	sfx_frottements_peau_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_frottements_peau_02_4009202D.wem		\Actor-Mixer Hierarchy\Main\Gestes\sfx_frottements_peau_02		138203
+	861141021	sfx_celesta_glissendo	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_celesta_glissendo_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_celesta_glissendo		84205
+	1000975136	sfx_orchestral_phrase	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_orchestral_phrase_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_orchestral_phrase		55139
+	1034140585	sfx_glockenspiel_glissendo	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\sfx_glockenspiel_glissendo_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Feedbacks\Feedbacks positifs\sfx_glockenspiel_glissendo		72835
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	963936515	mus_radiomassage	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\SFX\mus_radiomassage_BADC626A.wem	963936515.wem	\Actor-Mixer Hierarchy\Main\Music\mus_radiomassage	
 
