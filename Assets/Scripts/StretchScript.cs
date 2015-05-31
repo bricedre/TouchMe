@@ -35,7 +35,8 @@ public class StretchScript : MonoBehaviour {
 	public float stretchRatio;
 	public float maxStretch;
 	public float maxCompress;
-	
+	public float stretchProgression;
+
 	public bool withinBounds;
 
 	private float parentRelativeTime;
@@ -66,6 +67,7 @@ public class StretchScript : MonoBehaviour {
 		else withinBounds = true;
 
 		parentRelativeTime = 0.0f;
+
 		//If parent animation influences child's values
 		if(parentInfluence.parentLimb != null){
 			parentRelativeTime = parentInfluence.parentLimb.relativeTime;

@@ -9,5 +9,6 @@ public class DialogScript : MonoBehaviour {
 	public string[] playerAnswers;
 	public string[] characterAnswers;
 	public float[] answersValues;
+	public float[] cuesLength;
 
 }

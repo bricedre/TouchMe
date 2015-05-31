@@ -9,12 +9,14 @@ public class PatternScript : MonoBehaviour {
 	public GameObject marker;
 	public int errors;
 	public float points;
+	private AudioManager audioManager;
 
 	// get nb of steps
 	void Start () {
 		this.currentStep = 0;
 		this.steps = transform.childCount;
-		//marker = GameObject.Find ("PointsParticles");
+
+		audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 	}
 
 	void Update () {
@@ -30,12 +32,21 @@ public class PatternScript : MonoBehaviour {
 
 			//Modifying character happiness
 			GameObject.Find ("GameManager").GetComponent<GameManager>().pointsPool += points;
+
+			//Triggering audio response
+			//audioManager.playEvent("positifs");
+
 		}
 
 		// If numbers of turnsLeft is done
 		if(this.turnsLeft == 0){
 			Destroy(this.gameObject);
 			Debug.Log ("Pattern End");
+
+			if(errors < 5){
+				GameObject.Find ("GameManager").GetComponent<GameManager>().pointsPool += points*2;
+			}
+			else{}
 		}
 	}
 }

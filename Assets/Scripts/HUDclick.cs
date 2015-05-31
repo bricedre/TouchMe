@@ -12,6 +12,7 @@ public class HUDclick : TouchObject {
 	private DialogsManager scriptDialogs;
 
 	private void Start(){
+		gameObject.SetActive (true);
 		script = GameObject.Find ("GameManager").GetComponent<GameManager>();
 		scriptDialogs = GameObject.Find ("DialogsManager").GetComponent<DialogsManager>();
 	}

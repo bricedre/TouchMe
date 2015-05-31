@@ -8,20 +8,25 @@ using System.Collections.Generic;
 
 public class TouchManager : TouchObject {
 	
-	private GameObject cursor;
+	public GameObject cursor;
 	private RaycastHit hit;
 	private Ray ray;
 	public List<GestureEvent> touches;
+	public AudioManager audioManager;
 	
 	void Start () {
-		cursor = GameObject.Find ("Cursor");
+		cursor = GameObject.FindGameObjectWithTag ("Cursor");
 		cursor.transform.position = new Vector3 (-100.0f, -100.0f, -3.2f);
+		touches = new List<GestureEvent> ();
+		audioManager = GameObject.Find ("AudioManager").GetComponent<AudioManager>();
 	}
 
 	void Update(){
 
+		//When pattern suite is depleted
 		if(transform.childCount == 0){
 			initializeCursor();
+			GameObject.Find ("GameManager").GetComponent<GameManager>().makeProgressInScenario();
 			Destroy(gameObject);
 		}
 
@@ -29,15 +34,21 @@ public class TouchManager : TouchObject {
 
 	public void NDrag(GestureEvent gEvent){
 
+		if (gEvent.Phase == GesturePhase.GESTURE_BEGIN)
+			audioManager.playEvent ("Touch_play");
+
 		ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		if (Physics.Raycast(ray, out hit)){
 			cursor.transform.position = new Vector3 (hit.point.x, hit.point.y, cursor.transform.position.z);
 		}
 
 
+
+
 		//At the end of the gesture, put it back to neutral pos
 		if (gEvent.Phase == GesturePhase.GESTURE_END || gEvent.Phase == GesturePhase.GESTURE_RELEASE || gEvent.Phase == GesturePhase.GESTURE_PASSIVE) {
 			initializeCursor();
+			audioManager.playEvent ("Touch_stop");
 		}
 	}
 

@@ -8,9 +8,11 @@ public class HandleScript: TouchObject {
 	private StretchScript parentScript;
 	bool active = true;
 	public string phase;
+	public AudioManager audioManager;
 
 	void Start () {
 		parentScript = transform.parent.GetComponent<StretchScript> ();
+		audioManager = GameObject.Find ("AudioManager").GetComponent<AudioManager>();
 	}
 
 	void Update(){
@@ -23,9 +25,7 @@ public class HandleScript: TouchObject {
 		phase = "* " + gEvent.Phase.ToString () + " *";
 
 		//According to cases
-		switch(gEvent.Phase) {
-
-		case GesturePhase.GESTURE_ACTIVE:
+		if(gEvent.Phase == GesturePhase.GESTURE_ACTIVE){
 
 			//Get touch Infos
 			float dX = gEvent.Values ["drag_dx"];
@@ -53,22 +53,11 @@ public class HandleScript: TouchObject {
 
 			transform.position = cam.ScreenToWorldPoint (newPosition);
 
-			break;
+		}
 
-		case GesturePhase.GESTURE_PASSIVE:
+		else if (gEvent.Phase == GesturePhase.GESTURE_PASSIVE || gEvent.Phase == GesturePhase.GESTURE_END || gEvent.Phase == GesturePhase.GESTURE_RELEASE){
 			rigidbody.isKinematic = false;
-			break;
-
-		case GesturePhase.GESTURE_END:
-			rigidbody.isKinematic = false;
-			break;
-
-		case GesturePhase.GESTURE_RELEASE:
-			rigidbody.isKinematic = false;
-			break;
-
-		default:
-			break;
+			audioManager.playEvent ("corps_elastique");
 		}
 	}
 	

@@ -6,9 +6,12 @@ public class DialogsManager : MonoBehaviour {
 	private AudioManager audioManager;
 	private GameManager gameManager;
 
-	public TextMesh answer1;
-	public TextMesh answer2;
-	public TextMesh answer3;
+	public GUIText answer1;
+	public GUIText answer2;
+	public GUIText answer3;
+	public GameObject answer1Trigger;
+	public GameObject answer2Trigger;
+	public GameObject answer3Trigger;
 
 	public int currentDialog = 0;
 	public GameObject[] dialogs;
@@ -27,22 +30,24 @@ public class DialogsManager : MonoBehaviour {
 		//Get actuators
 		gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 		audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
-		answer1 = GameObject.Find("answer1").GetComponent<TextMesh>();
-		answer2 = GameObject.Find("answer2").GetComponent<TextMesh>();
-		answer3 = GameObject.Find("answer3").GetComponent<TextMesh>();
-
-		// Dialogue d'introduction ("vous pouvez me masser les hanches") : currentDialog = 0;
-		//asking = true;
+		try{
+			answer1 = GameObject.Find("answer1").GetComponent<GUIText>();
+			answer2 = GameObject.Find("answer2").GetComponent<GUIText>();
+			answer3 = GameObject.Find("answer3").GetComponent<GUIText>();
+			answer1Trigger = GameObject.Find("answer1Trigger");
+			answer2Trigger = GameObject.Find("answer2Trigger");
+			answer3Trigger = GameObject.Find("answer3Trigger");
+		}
+		catch {}
 
 	}
 
 	void Update () {
 
 		//Narrative advancement
-		if((int)Time.time % 30 == 29 && !asking){
+		if((int)Time.time % 30 == 5 && !asking){
 			
-			currentDialog = (int)Random.Range(0, 11);
-			asking = true;
+			startDialog((int)Random.Range(0, 11));
 			
 		}
 
@@ -71,8 +76,11 @@ public class DialogsManager : MonoBehaviour {
 				answer1.gameObject.SetActive(true);
 				answer2.gameObject.SetActive(true);
 				answer3.gameObject.SetActive(true);
+				answer1Trigger.gameObject.SetActive(true);
+				answer2Trigger.gameObject.SetActive(true);
+				answer3Trigger.gameObject.SetActive(true);
 		
-
+				//If the players chooses one option or auto-answering is on
 				if(answered || dialogs[currentDialog].GetComponent<DialogScript>().autoAnswering)
 					dialogStatus = 2;
 
@@ -85,7 +93,7 @@ public class DialogsManager : MonoBehaviour {
 				if(dialogs[currentDialog].GetComponent<DialogScript>().characterAnswers[answerChoice] != "")
 					audioManager.playEvent(dialogs[currentDialog].GetComponent<DialogScript>().characterAnswers[answerChoice]);
 
-				//Modifying character happiness
+				//Modifying character happiness accordingly
 				gameManager.pointsPool += dialogs[currentDialog].GetComponent<DialogScript>().answersValues[answerChoice];
 
 				//Going back to normal
@@ -104,9 +112,19 @@ public class DialogsManager : MonoBehaviour {
 			answer1.gameObject.SetActive(false);
 			answer2.gameObject.SetActive(false);
 			answer3.gameObject.SetActive(false);
-
+			answer1Trigger.gameObject.SetActive(false);
+			answer2Trigger.gameObject.SetActive(false);
+			answer3Trigger.gameObject.SetActive(false);
+			
 		}
 		
+	}
+
+	public void startDialog(int dialog){
+
+		currentDialog = dialog;
+		asking = true;
+
 	}
 
 

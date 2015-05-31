@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: abe4eb87d67d0b8439819ba06414d06b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Happiness2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_3
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_4
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_5
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 919
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 6
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_9
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 6
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Happiness2_10
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 6
+        width: 292
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

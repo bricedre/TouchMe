@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <WwiseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <WwiseProjectPath>wwise touch me/wwise touch me.wproj</WwiseProjectPath>
-  <SoundbankPath>../StreamingAssets/</SoundbankPath>
+  <SoundbankPath>Audio\GeneratedSoundBanks</SoundbankPath>
   <CreateWwiseGlobal>true</CreateWwiseGlobal>
-  <CreateWwiseListener>false</CreateWwiseListener>
+  <CreateWwiseListener>true</CreateWwiseListener>
   <OldProject>false</OldProject>
 </WwiseSettings>

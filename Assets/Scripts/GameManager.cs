@@ -31,6 +31,12 @@ public class GameManager : MonoBehaviour {
 	public int scenarioAdvancement;
 	private bool scenarioPartLoaded;
 
+	//Patterns to Load
+	public static Object ARI_BACK = Resources.Load("ARI_BACK");
+
+	private AudioManager audioManager;
+	public bool musicOn;
+
 	void Start () {
 
 		gameRunning = true;
@@ -38,6 +44,15 @@ public class GameManager : MonoBehaviour {
 
 		hud.offPosX = hud.pauseBar.transform.position.x;
 		hud.onPosX = hud.offPosX + hud.outFactor;
+
+		//Music
+		audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+
+		//Background Music
+		if(musicOn)
+		{
+			audioManager.playEvent("music_play_01");
+		}
 	
 	}
 
@@ -49,13 +64,24 @@ public class GameManager : MonoBehaviour {
 			//Changing stuff according to Scenario
 			if(!scenarioPartLoaded){
 				switch(scenarioAdvancement){
-					case 0: //Travail DOS
-						
+					case 0: //Travail DOS : patterns
+						audioManager.playEvent("Play_ARI_RA_03");
+						//Instantiate(ARI_BACK, transform.position, transform.rotation);
 						scenarioPartLoaded = true;
 						break;
 
-					case 1: //travail BRAS
-						
+					case 1: //travail DOS : stretches
+						audioManager.playEvent("Play_ARI_RA_04");
+						scenarioPartLoaded = true;
+						break;
+
+					case 2: //travail BRAS : patterns
+						//audioManager.playEvent("Play_ARI_RA_04");
+						scenarioPartLoaded = true;
+						break;
+
+					case 3: //travail BRAS : stretches
+						//audioManager.playEvent("Play_ARI_RA_04");
 						scenarioPartLoaded = true;
 						break;
 				}
@@ -71,11 +97,16 @@ public class GameManager : MonoBehaviour {
 			else pointsPool = 0.0f;
 
 			//Up-Limit
-			if(happiness > maxHappiness)
+			if(happiness > maxHappiness){
 				happiness = maxHappiness;
+				pointsPool = 0.0f;
+			}
 
-			if(happiness < minHappiness)
+			///Down-Limit
+			if(happiness < minHappiness){
 				happiness = minHappiness;
+				pointsPool = 0.0f;
+			}
 
 			//Pause Bar is folded
 			hud.pauseBar.transform.position = new Vector3(Mathf.Lerp(hud.pauseBar.transform.position.x, hud.offPosX, hud.speed),
@@ -86,7 +117,7 @@ public class GameManager : MonoBehaviour {
 		//Game is in pause
 		else{
 			
-			//PutPauseBar
+			//Pause Bar is unfolded
 			hud.pauseBar.transform.position = new Vector3(Mathf.Lerp(hud.pauseBar.transform.position.x, hud.onPosX, hud.speed),
 			                                              hud.pauseBar.transform.position.y, 
 			                                              hud.pauseBar.transform.position.z);
@@ -94,7 +125,7 @@ public class GameManager : MonoBehaviour {
 
 	}
 
-	void makeProgressInScenario(){
+	public void makeProgressInScenario(){
 		scenarioPartLoaded = false;
 		scenarioAdvancement++;
 	}

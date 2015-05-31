@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Downloads\HatarakeTest (1)\HatarakeTest\Assets\Scripts\Cell.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TestShaderLambert.shader">
     <Files>
-      <File FileName="..\..\Downloads\HatarakeTest (1)\HatarakeTest\Assets\Scripts\GameManager.cs" Line="1" Column="1" />
-      <File FileName="..\..\Downloads\HatarakeTest (1)\HatarakeTest\Assets\Scripts\Office.cs" Line="146" Column="14" />
-      <File FileName="..\..\Downloads\HatarakeTest (1)\HatarakeTest\Assets\Scripts\Cell.cs" Line="1" Column="1" />
+      <File FileName="Assets\TestShaderLambert.shader" Line="46" Column="5" />
+      <File FileName="Assets\TestShaderFlat.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

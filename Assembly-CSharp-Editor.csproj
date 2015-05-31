@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{075608B7-4219-E284-0248-4DA78853D992}</ProjectGuid>
+	<ProjectGuid>{1CEE7133-F4D2-2E02-DB15-422B98AEFC24}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -83,22 +83,22 @@
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\MacFileSystemWatcher.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewControl.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewItem.cs" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\SoundbanksInfo.xml" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Ariette.txt" />
      <None Include="Assets\Wwise\Readme.txt" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\StreamingAssets\Init.txt" />
-     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Init.txt" />
-     <None Include="Assets\StreamingAssets\PluginInfo.xml" />
-     <None Include="Assets\StreamingAssets\SoundbanksInfo.xml" />
-     <None Include="Assets\StreamingAssets\Ariette.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
-     <None Include="Assets\StreamingAssets\{81552825-9DF7-4A6E-95A3-CB62F8CB6BEE}.txt" />
-     <None Include="Assets\StreamingAssets\English(US)\Ariette.txt" />
-     <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\PluginInfo.xml" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\TestShaderLambert.shader" />
      <None Include="Assets\WwiseSettings.xml" />
-     <None Include="Assets\StreamingAssets\Main.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
+     <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Main.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Init.txt" />
+     <None Include="Assets\TestShaderFlat.shader" />
  <Reference Include="GestureWorksCoreNET32">
  <HintPath>Assets\Plugins\GestureWorks\Core\GestureWorksCoreNET32.dll</HintPath>
  </Reference>
@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8D72B1FF-DDA7-CCA4-9315-35B0D92D5642}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{273E9AAE-940E-62BD-B639-F2AB2BAB656D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

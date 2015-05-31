@@ -17,7 +17,7 @@ public class AnimatedSprite : MonoBehaviour {
 	void Update () {
 
 		//Calculate Value
-		relativeTime = Normalize (1.0f, stretchScript.maxStretch, stretchScript.stretchRatio);
+		relativeTime = Normalize (stretchScript.maxCompress , stretchScript.maxStretch, stretchScript.stretchRatio);
 
 		//Show right frame
 		anim.Play("displacement", -1, relativeTime);

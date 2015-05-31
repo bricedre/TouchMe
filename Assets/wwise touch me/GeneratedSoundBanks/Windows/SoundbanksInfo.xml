@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" SchemaVersion="10" SoundbankVersion="112">
 	<RootPaths>
-		<ProjectRoot>E:\Programmes\FL Studio\Projects Game\Touch Me\wwise touch me\</ProjectRoot>
-		<SourceFilesRoot>E:\Programmes\FL Studio\Projects Game\Touch Me\wwise touch me\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Programmes\FL Studio\Projects Game\Touch Me\wwise touch me\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Brice\Documents\TouchMe\Assets\wwise touch me\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Brice\Documents\TouchMe\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Brice\Documents\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Programmes\FL Studio\Projects Game\Touch Me\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Brice\Documents\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="963936515" Language="SFX">
+			<ShortName>mus_radiomassage.wav</ShortName>
+			<Path>SFX\mus_radiomassage_ED891B1E.wem</Path>
+		</File>
+	</StreamedFiles>
 	<SoundBanks>
 		<SoundBank Id="117997239" Language="English(US)">
 			<ShortName>Ariette</ShortName>
@@ -73,223 +78,223 @@
 			<IncludedMemoryFiles>
 				<File Id="8589898" Language="English(US)">
 					<ShortName>ARI_DC_26.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_26_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_26_76A5D070.wem</Path>
 				</File>
 				<File Id="10894816" Language="English(US)">
 					<ShortName>ARI_RS_07.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_07_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_07_76A5D070.wem</Path>
 				</File>
 				<File Id="30672478" Language="English(US)">
 					<ShortName>ARI_DC_12.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_12_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_12_76A5D070.wem</Path>
 				</File>
 				<File Id="48346560" Language="English(US)">
 					<ShortName>ARI_DC_23.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_23_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_23_76A5D070.wem</Path>
 				</File>
 				<File Id="59512995" Language="English(US)">
 					<ShortName>ARI_RA_00.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_00_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_00_76A5D070.wem</Path>
 				</File>
 				<File Id="76755841" Language="English(US)">
 					<ShortName>ARI_DC_11.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_11_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_11_76A5D070.wem</Path>
 				</File>
 				<File Id="91531096" Language="English(US)">
 					<ShortName>ARI_DC_14.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_14_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_14_76A5D070.wem</Path>
 				</File>
 				<File Id="92920117" Language="English(US)">
 					<ShortName>ARI_DC_02.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_02_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_02_76A5D070.wem</Path>
 				</File>
 				<File Id="107111175" Language="English(US)">
 					<ShortName>ARI_DC_04.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_04_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_04_76A5D070.wem</Path>
 				</File>
 				<File Id="128589999" Language="English(US)">
 					<ShortName>ARI_RS_06.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_06_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_06_76A5D070.wem</Path>
 				</File>
 				<File Id="128911939" Language="English(US)">
 					<ShortName>ARI_DS_09.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_09_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_09_76A5D070.wem</Path>
 				</File>
 				<File Id="170380169" Language="English(US)">
 					<ShortName>ARI_RA_03.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_03_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_03_76A5D070.wem</Path>
 				</File>
 				<File Id="208019977" Language="English(US)">
 					<ShortName>ARI_DC_01.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_01_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_01_76A5D070.wem</Path>
 				</File>
 				<File Id="213593618" Language="English(US)">
 					<ShortName>ARI_DC_10.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_10_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_10_76A5D070.wem</Path>
 				</File>
 				<File Id="216021773" Language="English(US)">
 					<ShortName>ARI_DC_06.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_06_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_06_76A5D070.wem</Path>
 				</File>
 				<File Id="279227010" Language="English(US)">
 					<ShortName>ARI_DS_00.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_00_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_00_76A5D070.wem</Path>
 				</File>
 				<File Id="320121308" Language="English(US)">
 					<ShortName>ARI_DC_17.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_17_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_17_76A5D070.wem</Path>
 				</File>
 				<File Id="350487260" Language="English(US)">
 					<ShortName>ARI_DC_24.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_24_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_24_76A5D070.wem</Path>
 				</File>
 				<File Id="385892569" Language="English(US)">
 					<ShortName>ARI_DC_05.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_05_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_05_76A5D070.wem</Path>
 				</File>
 				<File Id="413509774" Language="English(US)">
 					<ShortName>ARI_DS_03.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_03_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_03_76A5D070.wem</Path>
 				</File>
 				<File Id="424574448" Language="English(US)">
 					<ShortName>ARI_DC_00.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_00_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_00_76A5D070.wem</Path>
 				</File>
 				<File Id="438312180" Language="English(US)">
 					<ShortName>ARI_RA_06.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_06_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_06_76A5D070.wem</Path>
 				</File>
 				<File Id="445653079" Language="English(US)">
 					<ShortName>ARI_DS_01.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_01_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_01_76A5D070.wem</Path>
 				</File>
 				<File Id="469354625" Language="English(US)">
 					<ShortName>ARI_RS_08.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_08_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_08_76A5D070.wem</Path>
 				</File>
 				<File Id="493603571" Language="English(US)">
 					<ShortName>ARI_RS_03.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_03_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_03_76A5D070.wem</Path>
 				</File>
 				<File Id="524101620" Language="English(US)">
 					<ShortName>ARI_DC_19.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_19_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_19_76A5D070.wem</Path>
 				</File>
 				<File Id="548982887" Language="English(US)">
 					<ShortName>ARI_DC_07.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_07_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_07_76A5D070.wem</Path>
 				</File>
 				<File Id="561721429" Language="English(US)">
 					<ShortName>ARI_RS_00.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_00_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_00_76A5D070.wem</Path>
 				</File>
 				<File Id="602126849" Language="English(US)">
 					<ShortName>ARI_DC_25.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_25_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_25_76A5D070.wem</Path>
 				</File>
 				<File Id="604148447" Language="English(US)">
 					<ShortName>ARI_DC_13.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_13_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_13_76A5D070.wem</Path>
 				</File>
 				<File Id="617918127" Language="English(US)">
 					<ShortName>ARI_DC_15.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_15_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_15_76A5D070.wem</Path>
 				</File>
 				<File Id="625662060" Language="English(US)">
 					<ShortName>ARI_DC_08.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_08_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_08_76A5D070.wem</Path>
 				</File>
 				<File Id="629954644" Language="English(US)">
 					<ShortName>ARI_DS_02.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_02_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_02_76A5D070.wem</Path>
 				</File>
 				<File Id="691985487" Language="English(US)">
 					<ShortName>ARI_DC_27.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_27_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_27_76A5D070.wem</Path>
 				</File>
 				<File Id="708375333" Language="English(US)">
 					<ShortName>ARI_RS_04.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_04_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_04_76A5D070.wem</Path>
 				</File>
 				<File Id="715438565" Language="English(US)">
 					<ShortName>ARI_DS_06.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_06_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_06_76A5D070.wem</Path>
 				</File>
 				<File Id="733206503" Language="English(US)">
 					<ShortName>ARI_DC_18.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_18_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_18_76A5D070.wem</Path>
 				</File>
 				<File Id="762083414" Language="English(US)">
 					<ShortName>ARI_RS_02.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_02_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_02_76A5D070.wem</Path>
 				</File>
 				<File Id="768350057" Language="English(US)">
 					<ShortName>ARI_DC_16.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_16_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_16_76A5D070.wem</Path>
 				</File>
 				<File Id="797264161" Language="English(US)">
 					<ShortName>ARI_RA_01.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_01_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_01_76A5D070.wem</Path>
 				</File>
 				<File Id="833292592" Language="English(US)">
 					<ShortName>ARI_RS_05.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_05_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_05_76A5D070.wem</Path>
 				</File>
 				<File Id="857627629" Language="English(US)">
 					<ShortName>ARI_RA_05.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_05_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_05_76A5D070.wem</Path>
 				</File>
 				<File Id="863375651" Language="English(US)">
 					<ShortName>ARI_DC_21.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_21_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_21_76A5D070.wem</Path>
 				</File>
 				<File Id="870810140" Language="English(US)">
 					<ShortName>ARI_RA_04.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_04_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_04_76A5D070.wem</Path>
 				</File>
 				<File Id="877485264" Language="English(US)">
 					<ShortName>ARI_DC_22.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_22_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_22_76A5D070.wem</Path>
 				</File>
 				<File Id="885898654" Language="English(US)">
 					<ShortName>ARI_DS_08.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_08_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_08_76A5D070.wem</Path>
 				</File>
 				<File Id="892937165" Language="English(US)">
 					<ShortName>ARI_DS_07.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_07_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_07_76A5D070.wem</Path>
 				</File>
 				<File Id="912874749" Language="English(US)">
 					<ShortName>ARI_RS_09.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_09_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_09_76A5D070.wem</Path>
 				</File>
 				<File Id="916607912" Language="English(US)">
 					<ShortName>ARI_DS_05.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_05_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_05_76A5D070.wem</Path>
 				</File>
 				<File Id="927581670" Language="English(US)">
 					<ShortName>ARI_DC_20.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_20_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_20_76A5D070.wem</Path>
 				</File>
 				<File Id="972847680" Language="English(US)">
 					<ShortName>ARI_DC_03.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_03_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_03_76A5D070.wem</Path>
 				</File>
 				<File Id="1008663791" Language="English(US)">
 					<ShortName>ARI_DC_09.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DC_09_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DC_09_76A5D070.wem</Path>
 				</File>
 				<File Id="1040749475" Language="English(US)">
 					<ShortName>ARI_RA_02.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RA_02_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RA_02_76A5D070.wem</Path>
 				</File>
 				<File Id="1049570217" Language="English(US)">
 					<ShortName>ARI_RS_01.wav</ShortName>
-					<Path>Voices\English(US)\ARI_RS_01_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_RS_01_76A5D070.wem</Path>
 				</File>
 				<File Id="1050183987" Language="English(US)">
 					<ShortName>ARI_DS_04.wav</ShortName>
-					<Path>Voices\English(US)\ARI_DS_04_49D41B50.wem</Path>
+					<Path>Voices\English(US)\ARI_DS_04_76A5D070.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -301,13 +306,76 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4031138612" Name="corps_elastique"/>
+				<Event Id="636831067" Name="music_play_01"/>
+				<Event Id="3951105902" Name="negatifs"/>
+				<Event Id="1461307238" Name="positifs"/>
 				<Event Id="4034399387" Name="Touch_play"/>
 				<Event Id="2862285649" Name="Touch_stop"/>
 			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="963936515"/>
+			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="1047135937" Language="SFX">
-					<ShortName>placeholder.wav</ShortName>
-					<Path>SFX\placeholder_3F93B85B.wem</Path>
+				<File Id="430552" Language="SFX">
+					<ShortName>sfx_cello_bend_02.wav</ShortName>
+					<Path>SFX\sfx_cello_bend_02_76A5D070.wem</Path>
+				</File>
+				<File Id="63798917" Language="SFX">
+					<ShortName>sfx_xylophone glissendo.wav</ShortName>
+					<Path>SFX\sfx_xylophone glissendo_76A5D070.wem</Path>
+				</File>
+				<File Id="112231237" Language="SFX">
+					<ShortName>sfx_glockenspiel_arpege.wav</ShortName>
+					<Path>SFX\sfx_glockenspiel_arpege_76A5D070.wem</Path>
+				</File>
+				<File Id="202612126" Language="SFX">
+					<ShortName>sfx_timbale_bend_02.wav</ShortName>
+					<Path>SFX\sfx_timbale_bend_02_76A5D070.wem</Path>
+				</File>
+				<File Id="309444620" Language="SFX">
+					<ShortName>sfx_cello_bend_01.wav</ShortName>
+					<Path>SFX\sfx_cello_bend_01_76A5D070.wem</Path>
+				</File>
+				<File Id="318011411" Language="SFX">
+					<ShortName>sfx_tiptoe_02.wav</ShortName>
+					<Path>SFX\sfx_tiptoe_02_76A5D070.wem</Path>
+				</File>
+				<File Id="501601501" Language="SFX">
+					<ShortName>sfx_timbale_bend_01.wav</ShortName>
+					<Path>SFX\sfx_timbale_bend_01_76A5D070.wem</Path>
+				</File>
+				<File Id="501795174" Language="SFX">
+					<ShortName>sfx_cello_bend_03.wav</ShortName>
+					<Path>SFX\sfx_cello_bend_03_76A5D070.wem</Path>
+				</File>
+				<File Id="633792477" Language="SFX">
+					<ShortName>sfx_tiptoe_orchestral_02.wav</ShortName>
+					<Path>SFX\sfx_tiptoe_orchestral_02_76A5D070.wem</Path>
+				</File>
+				<File Id="709380184" Language="SFX">
+					<ShortName>sfx_tiptoe_orchestral_01.wav</ShortName>
+					<Path>SFX\sfx_tiptoe_orchestral_01_76A5D070.wem</Path>
+				</File>
+				<File Id="751754525" Language="SFX">
+					<ShortName>sfx_tiptoe_01.wav</ShortName>
+					<Path>SFX\sfx_tiptoe_01_76A5D070.wem</Path>
+				</File>
+				<File Id="816793400" Language="SFX">
+					<ShortName>sfx_frottements_peau_02.wav</ShortName>
+					<Path>SFX\sfx_frottements_peau_02_6C474722.wem</Path>
+				</File>
+				<File Id="861141021" Language="SFX">
+					<ShortName>sfx_celesta_glissendo.wav</ShortName>
+					<Path>SFX\sfx_celesta_glissendo_76A5D070.wem</Path>
+				</File>
+				<File Id="1000975136" Language="SFX">
+					<ShortName>sfx_orchestral_phrase.wav</ShortName>
+					<Path>SFX\sfx_orchestral_phrase_76A5D070.wem</Path>
+				</File>
+				<File Id="1034140585" Language="SFX">
+					<ShortName>sfx_glockenspiel_glissendo.wav</ShortName>
+					<Path>SFX\sfx_glockenspiel_glissendo_76A5D070.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

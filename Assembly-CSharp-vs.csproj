@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{8D72B1FF-DDA7-CCA4-9315-35B0D92D5642}</ProjectGuid>
+	<ProjectGuid>{273E9AAE-940E-62BD-B639-F2AB2BAB656D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AudioManager.cs" />
      <Compile Include="Assets\Commons\Scripts\GestureWorks\GestureworksInstance.cs" />
      <Compile Include="Assets\Commons\Scripts\GestureWorks\Main.cs" />
      <Compile Include="Assets\Commons\Scripts\GestureWorks\MainConfig.cs" />
@@ -90,14 +89,16 @@
      <Compile Include="Assets\Commons\Scripts\TUIO\TuioTime.cs" />
      <Compile Include="Assets\Commons\Scripts\Utils\DestroyMeAfter.cs" />
      <Compile Include="Assets\Commons\Scripts\Utils\ParticlesAfterDelete.cs" />
-     <Compile Include="Assets\Demo\Gesture_Cube.cs" />
      <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\BubbleWiggle.cs" />
      <Compile Include="Assets\Scripts\DialogScript.cs" />
      <Compile Include="Assets\Scripts\DialogsManager.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\HUDclick.cs" />
      <Compile Include="Assets\Scripts\HandleScript.cs" />
      <Compile Include="Assets\Scripts\PatternScript.cs" />
+     <Compile Include="Assets\Scripts\PointsGauge.cs" />
      <Compile Include="Assets\Scripts\PointsParticleS.cs" />
      <Compile Include="Assets\Scripts\StepScript.cs" />
      <Compile Include="Assets\Scripts\StretchScript.cs" />
@@ -197,23 +198,22 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
      <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\testDialogAudio.cs" />
-     <Compile Include="Assets\variableDrivenAnimation.cs" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\SoundbanksInfo.xml" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Ariette.txt" />
      <None Include="Assets\Wwise\Readme.txt" />
-     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\StreamingAssets\Init.txt" />
-     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Init.txt" />
-     <None Include="Assets\StreamingAssets\PluginInfo.xml" />
-     <None Include="Assets\StreamingAssets\SoundbanksInfo.xml" />
-     <None Include="Assets\StreamingAssets\Ariette.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
-     <None Include="Assets\StreamingAssets\{81552825-9DF7-4A6E-95A3-CB62F8CB6BEE}.txt" />
-     <None Include="Assets\StreamingAssets\English(US)\Ariette.txt" />
-     <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\Wwise\Version.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\PluginInfo.xml" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\TestShaderLambert.shader" />
      <None Include="Assets\WwiseSettings.xml" />
-     <None Include="Assets\StreamingAssets\Main.txt" />
+     <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
+     <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Main.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Init.txt" />
+     <None Include="Assets\TestShaderFlat.shader" />
  <Reference Include="GestureWorksCoreNET32">
  <HintPath>Assets\Plugins\GestureWorks\Core\GestureWorksCoreNET32.dll</HintPath>
  </Reference>

@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 6a4e52a40b39e504fb1d4e13df5ced7a
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: back_Shiver_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2535
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_1
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 2535
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_2
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 2535
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_4
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1690
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_5
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 1690
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 845
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_7
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 845
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_8
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 845
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: back_Shiver_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1397
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
