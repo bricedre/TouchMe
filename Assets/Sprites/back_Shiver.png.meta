@@ -1,6 +1,17 @@
 fileFormatVersion: 2
 guid: 6a4e52a40b39e504fb1d4e13df5ced7a
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: back_Shiver_0
+    21300002: back_Shiver_1
+    21300004: back_Shiver_2
+    21300006: back_Shiver_3
+    21300008: back_Shiver_4
+    21300010: back_Shiver_5
+    21300012: back_Shiver_6
+    21300014: back_Shiver_7
+    21300016: back_Shiver_8
+    21300018: back_Shiver_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +62,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_1
       rect:
         serializedVersion: 2
@@ -59,6 +72,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_2
       rect:
         serializedVersion: 2
@@ -68,6 +82,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_3
       rect:
         serializedVersion: 2
@@ -77,6 +92,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_4
       rect:
         serializedVersion: 2
@@ -86,6 +102,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_5
       rect:
         serializedVersion: 2
@@ -95,6 +112,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_6
       rect:
         serializedVersion: 2
@@ -104,6 +122,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_7
       rect:
         serializedVersion: 2
@@ -113,6 +132,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_8
       rect:
         serializedVersion: 2
@@ -122,6 +142,7 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: back_Shiver_9
       rect:
         serializedVersion: 2
@@ -131,5 +152,6 @@ TextureImporter:
         height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

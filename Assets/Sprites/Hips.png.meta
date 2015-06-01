@@ -1,6 +1,19 @@
 fileFormatVersion: 2
 guid: ae25c267d3dba624e8e5e654b5b2af6e
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hips_0
+    21300002: Hips_1
+    21300004: Hips_2
+    21300006: Hips_3
+    21300008: Hips_4
+    21300010: Hips_5
+    21300012: Hips_6
+    21300014: Hips_7
+    21300016: Hips_8
+    21300018: Hips_9
+    21300020: Hips_10
+    21300022: Hips_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +64,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_1
       rect:
         serializedVersion: 2
@@ -59,6 +74,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_2
       rect:
         serializedVersion: 2
@@ -68,6 +84,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_3
       rect:
         serializedVersion: 2
@@ -77,6 +94,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_4
       rect:
         serializedVersion: 2
@@ -86,6 +104,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_5
       rect:
         serializedVersion: 2
@@ -95,6 +114,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_6
       rect:
         serializedVersion: 2
@@ -104,6 +124,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_7
       rect:
         serializedVersion: 2
@@ -113,6 +134,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_8
       rect:
         serializedVersion: 2
@@ -122,6 +144,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_9
       rect:
         serializedVersion: 2
@@ -131,6 +154,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_10
       rect:
         serializedVersion: 2
@@ -140,6 +164,7 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hips_11
       rect:
         serializedVersion: 2
@@ -149,5 +174,6 @@ TextureImporter:
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -26,11 +26,11 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_ARI_DC_15" ID="{2B155F91-8BEA-46E6-92BC-3ADE63D6EF74}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
+							<ObjectRef Name="ARI_DC2_1_reply2" ID="{2B155F91-8BEA-46E6-92BC-3ADE63D6EF74}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_ARI_DC_21" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
+							<ObjectRef Name="ARI_DC2_3_firstCue" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
 							<Position X="4" Y="0"/>
 						</Module>
 					</ModuleList>

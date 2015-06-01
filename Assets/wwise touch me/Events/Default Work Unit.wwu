@@ -5,611 +5,635 @@
 			<ChildrenList>
 				<Folder Name="Dialogues" ID="{30E75181-4780-4EBB-8069-B532A700322A}" ShortID="950547948">
 					<ChildrenList>
-						<Event Name="Play_ARI_DC_01" ID="{9EF5D841-46F3-4E65-A9F7-00234183358D}">
+						<Folder Name="Dialogues Contextuels Positifs" ID="{037FD244-38C2-4C5B-9250-398ED5755B50}" ShortID="746463488">
 							<ChildrenList>
-								<Action Name="Play" ID="{25127830-4DA8-4E9F-88E4-9236FF96864F}" ShortID="551232782" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{13866071-1F7B-45EA-8C8A-ABEF55F64BAC}" Global="false">
-											<ObjectRef Name="ARI_DC_01" ID="{CEAB1E98-FDFC-418A-BD06-22F051FB7D82}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_DC1_2_reply2" ID="{4FDAC2FF-CBF1-407E-97F5-F958BD1AE8E4}">
+									<ChildrenList>
+										<Action Name="Play" ID="{5FDF6A90-97F2-4B39-95E4-192E10E34403}" ShortID="1035409412" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{7494C5A8-471E-4A49-98F3-BE4D76B5B072}" Global="false">
+													<ObjectRef Name="ARI_DC_04" ID="{1E4471DC-B27B-44A7-B224-7D2B41E4F3A7}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_2_reply3" ID="{48B302C2-E786-4551-9BF8-1A7870DAA05D}">
+									<ChildrenList>
+										<Action Name="Play" ID="{7BF8A1D4-AFE1-4DB3-9A6C-57C6F108BE12}" ShortID="420883066" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{76A8E44E-35CB-49EC-BF30-C48CE8C077E2}" Global="false">
+													<ObjectRef Name="ARI_DC_05" ID="{DFD3451B-A0E9-46E6-905B-23E8BF2D65C2}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_3_firstCue" ID="{374B493D-CDAC-479B-A1E1-7E68BABABD75}">
+									<ChildrenList>
+										<Action Name="Play" ID="{2A847F9E-7211-437F-A26D-319E3A90B537}" ShortID="964166127" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6D22E544-879C-4973-A1CA-24FC1EA3A64B}" Global="false">
+													<ObjectRef Name="ARI_DC_06" ID="{791F339B-7223-4D49-8EAE-2EE381198EB4}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_3_reply1" ID="{2A896C23-FA82-40C3-BF32-12B9CD1F67D1}">
+									<ChildrenList>
+										<Action Name="Play" ID="{3AF7CDB9-3F86-41F6-817C-DDD65625ED16}" ShortID="351645542" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{13216F61-9620-4220-A11F-4734154BB00D}" Global="false">
+													<ObjectRef Name="ARI_DC_07" ID="{38C60B46-91CB-4E49-B1DB-724864C715A5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_3_reply2" ID="{84807112-BC99-412E-AD62-8799E98A0640}">
+									<ChildrenList>
+										<Action Name="Play" ID="{B6B49C54-52A5-46CB-8752-744B3EC9802E}" ShortID="108318379" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6029A6DA-D03E-4B00-B79A-64A010CC6CCF}" Global="false">
+													<ObjectRef Name="ARI_DC_08" ID="{7D0140A6-6D74-4529-9303-61BD4C50C78F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_3_reply3" ID="{F85058C0-3BFF-4AA5-AB60-FB369D4920FE}">
+									<ChildrenList>
+										<Action Name="Play" ID="{128E78A8-8DFE-49B2-B767-611A3D59B7E8}" ShortID="529831107" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{7C9FE0EE-14D4-4CF9-ACD8-DD8387547E02}" Global="false">
+													<ObjectRef Name="ARI_DC_09" ID="{1AE84762-78D5-43A2-A6BD-35641B65114B}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_4_firstCue" ID="{C9EC17DC-D8E5-45B4-B9E0-DC5F99A9A755}">
+									<ChildrenList>
+										<Action Name="Play" ID="{B2C0AFC5-12F8-4C02-B428-E0B31F4C435B}" ShortID="201384216" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{C8C7DB19-ACD0-4AF7-9590-B09A83A5E672}" Global="false">
+													<ObjectRef Name="ARI_DC_10" ID="{C8D574EA-82BE-4FCE-9425-821C8D84FF1E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_4_reply2" ID="{D9DC2ABC-3A71-4B7C-8BF0-E835973DABD2}">
+									<ChildrenList>
+										<Action Name="Play" ID="{DD3C17EE-52FD-4162-85DF-3D153F8C0F5C}" ShortID="253573144" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{1464D510-B2AF-474B-8101-B0E187EFB3CC}" Global="false">
+													<ObjectRef Name="ARI_DC_11" ID="{31DEB457-C1B1-4E7E-8A5F-97E29F75DC95}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_4_reply3" ID="{B727F420-E30D-4133-A498-54D799975ECB}">
+									<ChildrenList>
+										<Action Name="Play" ID="{1F4F8A4A-78CD-40E7-8A6B-8ED8E30D8FB4}" ShortID="846883401" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{3D0C9A6E-721E-4A24-8116-678F5B37F066}" Global="false">
+													<ObjectRef Name="ARI_DC_12" ID="{5C2AF5E3-1C07-4121-8039-EF8DA4AF9D1A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_1_reply1" ID="{9EF5D841-46F3-4E65-A9F7-00234183358D}">
+									<ChildrenList>
+										<Action Name="Play" ID="{25127830-4DA8-4E9F-88E4-9236FF96864F}" ShortID="551232782" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{13866071-1F7B-45EA-8C8A-ABEF55F64BAC}" Global="false">
+													<ObjectRef Name="ARI_DC_01" ID="{CEAB1E98-FDFC-418A-BD06-22F051FB7D82}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_2_firstCue" ID="{9CF316BD-F5E5-4E4B-B28D-E866BF94D36A}">
+									<ChildrenList>
+										<Action Name="Play" ID="{CFF850D3-AC43-4E86-B4DE-39B7B90FD341}" ShortID="849931412" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{9D7895E3-51E6-49F0-806D-957F9A3A7EF4}" Global="false">
+													<ObjectRef Name="ARI_DC_02" ID="{487A7AF3-2ACC-4E0F-82BD-6AD4AA392DD8}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_1_firstCue" ID="{09AA37E2-A2BF-4572-984B-A729EDA30F5C}">
+									<ChildrenList>
+										<Action Name="Play" ID="{4CA68A80-133A-4C24-99B3-B37B9E04D81F}" ShortID="447220197" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{F613ED62-4908-44DA-92E4-8B296806E41B}" Global="false">
+													<ObjectRef Name="ARI_DC_00" ID="{55AD55D1-3E82-4021-A080-FA227BAD9AE2}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC1_2_reply1" ID="{0861EB27-56E8-4C87-8D38-B525576783E0}">
+									<ChildrenList>
+										<Action Name="Play" ID="{51BD13D4-3AF3-45E0-8509-6DA50B0D8FDE}" ShortID="965523259" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{75571007-90B8-4943-B1F1-BDE59192C874}" Global="false">
+													<ObjectRef Name="ARI_DC_03" ID="{431FFC62-F7D8-42BC-BC4D-82CB6678D5B5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_02" ID="{9CF316BD-F5E5-4E4B-B28D-E866BF94D36A}">
+						</Folder>
+						<Folder Name="Dialogues Contextuels Negatifs" ID="{B149FFC9-17F1-47E3-822E-7D71EF418ACF}" ShortID="693455045">
 							<ChildrenList>
-								<Action Name="Play" ID="{CFF850D3-AC43-4E86-B4DE-39B7B90FD341}" ShortID="849931412" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{9D7895E3-51E6-49F0-806D-957F9A3A7EF4}" Global="false">
-											<ObjectRef Name="ARI_DC_02" ID="{487A7AF3-2ACC-4E0F-82BD-6AD4AA392DD8}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_DC2_1_firstCue" ID="{513FE912-2302-4AB2-8E43-33EE55539690}">
+									<ChildrenList>
+										<Action Name="Play" ID="{7352EA8A-3B05-47CB-AD2C-1F8934746A0E}" ShortID="425869736" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{3340BCA4-4704-4488-B234-681874FFBCBF}" Global="false">
+													<ObjectRef Name="ARI_DC_13" ID="{FB2F337B-5A1E-49B1-8D5F-A09DA99A879A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_1_reply1" ID="{B3877DC6-FB50-41E3-A2F7-E12470178E69}">
+									<ChildrenList>
+										<Action Name="Play" ID="{CEB7B9C9-9D77-4C16-ABF0-DB83D8E35551}" ShortID="879160033" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{3FF44BB7-2673-40CF-9D1E-415B512502FF}" Global="false">
+													<ObjectRef Name="ARI_DC_14" ID="{7B15CFCE-7FA8-4C6F-8D7E-D4CE2070A0CE}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_1_reply2" ID="{2B155F91-8BEA-46E6-92BC-3ADE63D6EF74}">
+									<ChildrenList>
+										<Action Name="Play" ID="{FEEAA2C8-B05E-486E-8F8A-9D22F235A41A}" ShortID="867012590" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{5C85D211-1485-4A14-A671-20718A99FED0}" Global="false">
+													<ObjectRef Name="ARI_DC_15" ID="{A2BD4049-B114-4354-8187-AB21EAB68946}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_1_reply3" ID="{CE2E83D9-F031-4D2E-9F66-DBF1747773AE}">
+									<ChildrenList>
+										<Action Name="Play" ID="{24ACC5D0-99DD-465D-904F-0E4C98E1FE7D}" ShortID="865184448" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4485D123-5988-4ECA-A9C9-A6559855E811}" Global="false">
+													<ObjectRef Name="ARI_DC_16" ID="{533EBE10-03FB-431F-9DA3-8F1FC527279E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_2_firstCue" ID="{BCE17A72-8E4B-4EE7-A9C6-126BD7B7AE64}">
+									<ChildrenList>
+										<Action Name="Play" ID="{7C75D4B5-3366-448F-9DA7-CC9098725FB9}" ShortID="1000796112" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{1F4F118C-5673-42A8-8AE2-D21094D89CBC}" Global="false">
+													<ObjectRef Name="ARI_DC_17" ID="{E1FE79B8-8F37-4ADA-9A21-09348700693D}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_2_reply1" ID="{8154E422-33B6-422A-8DE8-FD335D838CFF}">
+									<ChildrenList>
+										<Action Name="Play" ID="{9AFC7061-098E-4F60-B5A2-1D0ECC54E6AA}" ShortID="269122120" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{12873506-B0C6-4CEB-86D1-E2E77A3B6634}" Global="false">
+													<ObjectRef Name="ARI_DC_18" ID="{A3383CE3-134B-4C94-AF94-EF175EB492FB}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_2_reply2" ID="{E94E7F72-C12F-4A89-83C7-4ED4B7641896}">
+									<ChildrenList>
+										<Action Name="Play" ID="{E237619F-8AEE-4126-A4C8-5A71D541C1FF}" ShortID="308540573" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{77F91A5E-410E-41DF-AB23-22688B79C195}" Global="false">
+													<ObjectRef Name="ARI_DC_19" ID="{8EA3E740-8723-4943-A348-DF69C9E063DB}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_2_reply3" ID="{5CEC323F-111F-450E-99F6-329241935277}">
+									<ChildrenList>
+										<Action Name="Play" ID="{6DE81304-D4FD-4578-8142-22DE8790A973}" ShortID="74317679" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{51F523CC-9B9B-42EF-990F-B502A3FE56E8}" Global="false">
+													<ObjectRef Name="ARI_DC_20" ID="{3CF4FBEE-CEB4-4EDB-8CA3-C78C36D37054}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_3_firstCue" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}">
+									<ChildrenList>
+										<Action Name="Play" ID="{2728A292-ADF6-4001-A519-88420819B1B7}" ShortID="361763911" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{E55D5693-448C-4370-BAE2-9534C1C0AE05}" Global="false">
+													<ObjectRef Name="ARI_DC_21" ID="{2AE8EC2F-488A-4E66-9F86-7EE3870FFF2C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_3_reply1" ID="{AB24FEC8-C951-4BB3-871A-0632341D17AC}">
+									<ChildrenList>
+										<Action Name="Play" ID="{70D68B5A-1C38-4B6D-A261-D12E7F488835}" ShortID="249724575" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{D7B58432-9192-461D-B577-4F0C95026F48}" Global="false">
+													<ObjectRef Name="ARI_DC_22" ID="{5B3D2C0B-5586-4948-AA57-FE24A670CED5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_3_reply2" ID="{956C0B3C-C5B7-4E03-95BD-8101AA99CC55}">
+									<ChildrenList>
+										<Action Name="Play" ID="{393B512F-D161-4AEA-AC85-7A8705330824}" ShortID="143585590" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{D376335F-F02E-48E7-9F25-2C1C6089034B}" Global="false">
+													<ObjectRef Name="ARI_DC_23" ID="{B1843406-9323-417B-AE31-671ADD27BAF0}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_3_reply3" ID="{3F66B84A-2DFD-434A-B4A2-B711E1897506}">
+									<ChildrenList>
+										<Action Name="Play" ID="{8D1CFFD1-0D5A-400E-B8DC-8CC0A0291ED4}" ShortID="419594980" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{F61950E7-A849-4ED3-8C9D-C466886D1B2D}" Global="false">
+													<ObjectRef Name="ARI_DC_24" ID="{7075A0C0-A71C-48DD-A85B-15CF1FD3B1CF}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_4_firstCue" ID="{0E1B2B71-D865-4105-8C37-525CFE10B8C0}">
+									<ChildrenList>
+										<Action Name="Play" ID="{F6713181-3AFD-4A0D-ADE5-F3D92513C4CD}" ShortID="180119626" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{F6130EAA-D84D-4E22-AE2E-B489F4B8C0AC}" Global="false">
+													<ObjectRef Name="ARI_DC_25" ID="{6A2B1AA5-6D73-418B-9B19-3EA11615575E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_4_reply2" ID="{3FACD0A3-7600-4FF5-95A6-8FCDB6863427}">
+									<ChildrenList>
+										<Action Name="Play" ID="{F0C86F31-3FBA-46D6-A0F3-2A6AF5B12B83}" ShortID="140689833" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{C6A5A8BE-084E-4A55-9E43-72994022AE70}" Global="false">
+													<ObjectRef Name="ARI_DC_26" ID="{7D1CF4C0-BF98-4523-AF03-4D38005B6E07}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DC2_4_reply3" ID="{D0050091-976A-48D8-A624-6CD96E64C075}">
+									<ChildrenList>
+										<Action Name="Play" ID="{E16BF6C5-6EA5-4B06-8BD3-76D71CA5ADF0}" ShortID="458138154" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{411C9889-2F4B-4C5A-A5DD-FEED1BD905CD}" Global="false">
+													<ObjectRef Name="ARI_DC_27" ID="{E4CAADB9-0AB3-4E8F-BE40-1248287321B3}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_00" ID="{09AA37E2-A2BF-4572-984B-A729EDA30F5C}">
+						</Folder>
+						<Folder Name="Repliques Simples Positives" ID="{58375BEB-11C1-4E7B-8D16-75FCBD25904D}" ShortID="632465747">
 							<ChildrenList>
-								<Action Name="Play" ID="{4CA68A80-133A-4C24-99B3-B37B9E04D81F}" ShortID="447220197" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{F613ED62-4908-44DA-92E4-8B296806E41B}" Global="false">
-											<ObjectRef Name="ARI_DC_00" ID="{55AD55D1-3E82-4021-A080-FA227BAD9AE2}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_RS1_1" ID="{5926434C-AE6E-416F-B858-8DD59F61ECA7}">
+									<ChildrenList>
+										<Action Name="Play" ID="{2710C0EE-4C96-4A28-AC5E-4319D3E70417}" ShortID="1017757420" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{1D6DC259-A0F7-45AA-BC78-CD782BCF1C2D}" Global="false">
+													<ObjectRef Name="ARI_RS_00" ID="{B74D4EC0-F612-4B3A-A428-945D7A54DF89}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS1_2" ID="{1AB5990A-1FCB-40FB-9B1E-2C3271C6266A}">
+									<ChildrenList>
+										<Action Name="Play" ID="{F6E52BC4-A5EC-4CE9-962F-336FB9039AED}" ShortID="333110301" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{DBA4EAA0-B194-4B4B-86FD-E0A9E86C5267}" Global="false">
+													<ObjectRef Name="ARI_RS_01" ID="{A44C4225-EAA5-4569-B07D-DCFF4DAAD87B}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS1_3" ID="{306270CD-E6F4-4378-A9E2-5E3011ECA3DE}">
+									<ChildrenList>
+										<Action Name="Play" ID="{BDC1CA01-5E77-4B85-B0FE-012982452300}" ShortID="627315676" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{30398513-9491-4FD5-83D5-F68D9E4E148C}" Global="false">
+													<ObjectRef Name="ARI_RS_02" ID="{741CDB7C-AA4C-4A16-9FDE-3A30A9EE8202}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS1_4" ID="{07B598BC-EC7D-459D-9DC4-CB968775C3AB}">
+									<ChildrenList>
+										<Action Name="Play" ID="{76ED968B-3181-4A1D-9824-7E66608AFD83}" ShortID="189768716" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{ADB206C3-98E9-4C78-B9DB-5D50B2774626}" Global="false">
+													<ObjectRef Name="ARI_RS_03" ID="{CCF38305-6F54-4630-B546-CF0AEDF6BD46}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS1_5" ID="{87A09795-012D-4DD1-85CD-17E69C9A6EFC}">
+									<ChildrenList>
+										<Action Name="Play" ID="{133CCF17-1750-49BF-A174-A536E7393A2C}" ShortID="787047515" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{A5058F95-6F09-4667-80D6-9210335767B8}" Global="false">
+													<ObjectRef Name="ARI_RS_04" ID="{95A47420-2C34-42FC-AD45-53A73271F64C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS1_6" ID="{62BC6500-15F5-49EE-B485-7D8F665511BE}">
+									<ChildrenList>
+										<Action Name="Play" ID="{885B6DD5-E3B8-4890-AF3A-A5A2A70476CF}" ShortID="664200697" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{668701BE-6D28-49E0-8454-51BD3A850B2C}" Global="false">
+													<ObjectRef Name="ARI_RS_05" ID="{A594D594-878D-40E4-BE87-090AD4763390}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_03" ID="{0861EB27-56E8-4C87-8D38-B525576783E0}">
+						</Folder>
+						<Folder Name="Repliques Simples Negatives" ID="{89D982A2-E13E-4E56-9446-3EC5FFE26F7C}" ShortID="176111292">
 							<ChildrenList>
-								<Action Name="Play" ID="{51BD13D4-3AF3-45E0-8509-6DA50B0D8FDE}" ShortID="965523259" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{75571007-90B8-4943-B1F1-BDE59192C874}" Global="false">
-											<ObjectRef Name="ARI_DC_03" ID="{431FFC62-F7D8-42BC-BC4D-82CB6678D5B5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_RS2_1" ID="{D0DD682F-7972-44EF-8C13-9DD9223BAD21}">
+									<ChildrenList>
+										<Action Name="Play" ID="{DF016673-8E16-4434-8782-AFE8294A5A4C}" ShortID="802376982" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{D3A08597-D01F-48DB-A717-7EB5AFDB1C84}" Global="false">
+													<ObjectRef Name="ARI_RS_06" ID="{05BE8B65-4FCB-4BF6-8109-5F31F3E7C2A9}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS2_2" ID="{5E3642A0-27BC-4DCB-89B6-3AD855B622C9}">
+									<ChildrenList>
+										<Action Name="Play" ID="{37E6BE00-9030-4EE5-A1D9-BD302B868F93}" ShortID="977085217" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{791F3C87-9082-435F-916C-1FEEE44ED731}" Global="false">
+													<ObjectRef Name="ARI_RS_07" ID="{89F654E8-C583-436E-A693-88C660333327}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS2_3" ID="{BE0203B5-1A5D-4C3D-BB7F-C5ED7CEFFEDE}">
+									<ChildrenList>
+										<Action Name="Play" ID="{17EB11C0-D3E1-4EBF-956B-0E556B594782}" ShortID="766869295" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{8662D9F8-057C-4280-AAFE-1C52B09D8759}" Global="false">
+													<ObjectRef Name="ARI_RS_08" ID="{2C5D2AB4-84F5-4EED-A527-6E5DDCA03335}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RS2_4" ID="{C9CD0394-B85C-4AB5-BF0F-E21528AD75E0}">
+									<ChildrenList>
+										<Action Name="Play" ID="{C7B7CB00-73EB-46AD-A950-C282D0A4CA93}" ShortID="134562467" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{361609FC-9C8C-4315-94A9-D7E0590837EC}" Global="false">
+													<ObjectRef Name="ARI_RS_09" ID="{AFA2758B-DFDF-4147-9C2A-B7FEC1A664EE}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_04" ID="{4FDAC2FF-CBF1-407E-97F5-F958BD1AE8E4}">
+						</Folder>
+						<Folder Name="Dialogues Scriptes" ID="{A88C8871-62C7-4C4D-B8D8-1A8286517EAF}" ShortID="26409157">
 							<ChildrenList>
-								<Action Name="Play" ID="{5FDF6A90-97F2-4B39-95E4-192E10E34403}" ShortID="1035409412" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{7494C5A8-471E-4A49-98F3-BE4D76B5B072}" Global="false">
-											<ObjectRef Name="ARI_DC_04" ID="{1E4471DC-B27B-44A7-B224-7D2B41E4F3A7}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_DS1_firstCue" ID="{3FF2F8EA-C3F4-4866-AC03-FF70463966A5}">
+									<ChildrenList>
+										<Action Name="Play" ID="{82D8D5A1-AEDA-495E-9177-642B5BBFFEF7}" ShortID="503375510" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{60E900E4-86E8-4247-9D27-00CFB9BC74FA}" Global="false">
+													<ObjectRef Name="ARI_DS_00" ID="{8BD8E0D6-D7ED-4A69-B1D4-C5F0268AA09E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS1_reply2" ID="{EF89CFFD-89B3-4C01-90F0-752AEC4AF2C5}">
+									<ChildrenList>
+										<Action Name="Play" ID="{73B137FF-903C-448F-8BD4-02D98C3CA21A}" ShortID="769835131" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{17E393AE-3650-4875-BE62-35711C72F753}" Global="false">
+													<ObjectRef Name="ARI_DS_01" ID="{926F1A50-C00F-4027-B373-D9D723C6020F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS1_reply3" ID="{F3994EC6-F01A-4260-9F1A-194DC5AAAB04}">
+									<ChildrenList>
+										<Action Name="Play" ID="{6111AFF4-7E0D-4FAC-8483-A651FFE66F5E}" ShortID="686670407" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{48A30A61-BA95-4D5E-B7BF-AC29C6B5A3E0}" Global="false">
+													<ObjectRef Name="ARI_DS_02" ID="{40006543-0A69-4E16-83D3-21C6210D2D83}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS2_firstCue" ID="{76AC29ED-6C3E-4CED-BF70-76263E86BA80}">
+									<ChildrenList>
+										<Action Name="Play" ID="{0B0F6CC4-C05E-4B99-8E04-446F2FA34A32}" ShortID="325123266" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{07388ECA-143C-4B76-B052-0C558F030053}" Global="false">
+													<ObjectRef Name="ARI_DS_03" ID="{6F3CB08A-6EF6-4C4E-ACDB-79450BD8347F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS2_reply1" ID="{9F6AA681-4DC0-43DC-9760-146399A79474}">
+									<ChildrenList>
+										<Action Name="Play" ID="{59794E75-096A-4086-8A69-A67FDDB038EA}" ShortID="135723887" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{431D9F71-16CE-4B5D-A2C5-ABDC1FBC61CB}" Global="false">
+													<ObjectRef Name="ARI_DS_04" ID="{CB54722A-77AE-4476-B7BF-C56F8F5B1EE7}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS2_reply3" ID="{07696AF0-8C45-450F-A4FE-7EC51B0E78D7}">
+									<ChildrenList>
+										<Action Name="Play" ID="{BA5FCA29-5D2C-432D-94A9-59EB4E25AAF9}" ShortID="129135702" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{5AC475F1-F2DF-4AB1-9424-26085B42049F}" Global="false">
+													<ObjectRef Name="ARI_DS_05" ID="{B880E250-3B3F-4E3D-B050-020364A44C50}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS3_firstCue" ID="{EC477BDB-4175-4933-B3FD-44D72FA77DC8}">
+									<ChildrenList>
+										<Action Name="Play" ID="{80A45A82-B075-48CB-976D-4E4F67F0E52A}" ShortID="785421341" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{7DB43CDD-4ECF-44F4-A0E3-D5404F34B670}" Global="false">
+													<ObjectRef Name="ARI_DS_06" ID="{36311B37-F80F-4CF1-8968-00DE6E5C68B8}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS3_reply1" ID="{495C7927-D9E6-4B55-89FE-6D0A4979190B}">
+									<ChildrenList>
+										<Action Name="Play" ID="{E8646895-94CF-4F76-972E-CD9B164A842A}" ShortID="509042185" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6BA45B51-E008-4612-BD11-17CC2C10AF44}" Global="false">
+													<ObjectRef Name="ARI_DS_07" ID="{2FADE84D-4A5F-4FBC-B887-C8FECC18CB9A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS3_reply2" ID="{9A0C8AE6-F607-4F25-8F3F-A69B599DD59A}">
+									<ChildrenList>
+										<Action Name="Play" ID="{E53813B3-E1D5-4473-89BD-0EBA47F67CF9}" ShortID="664597424" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{767B40E1-E7AF-4C9D-8D43-004162FFE2E4}" Global="false">
+													<ObjectRef Name="ARI_DS_08" ID="{24626DCA-92F5-4533-BD19-2180CEF6D28C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_DS3_reply3" ID="{9011B756-8BA4-47C6-9ACE-B85EC4CEC2BC}">
+									<ChildrenList>
+										<Action Name="Play" ID="{3E6A2F54-3800-4723-B0C8-2AEFBC846000}" ShortID="503823253" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{FB15C724-193A-4135-B4FA-E361674210D9}" Global="false">
+													<ObjectRef Name="ARI_DS_09" ID="{80DFFDD7-7AF9-4567-B265-D40724FFBC9E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_05" ID="{48B302C2-E786-4551-9BF8-1A7870DAA05D}">
+						</Folder>
+						<Folder Name="Repliques Actions" ID="{F33C2954-5A91-4826-8CFD-F673C9664605}" ShortID="87711804">
 							<ChildrenList>
-								<Action Name="Play" ID="{7BF8A1D4-AFE1-4DB3-9A6C-57C6F108BE12}" ShortID="420883066" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{76A8E44E-35CB-49EC-BF30-C48CE8C077E2}" Global="false">
-											<ObjectRef Name="ARI_DC_05" ID="{DFD3451B-A0E9-46E6-905B-23E8BF2D65C2}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="ARI_RA1_firstCue" ID="{599F3404-8675-4BAB-967B-FB16D915A2E2}">
+									<ChildrenList>
+										<Action Name="Play" ID="{FB606567-3E3A-410B-9B50-D45AD43C0E35}" ShortID="982682800" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{8542AD57-1475-486E-8A0B-3EA02AF09457}" Global="false">
+													<ObjectRef Name="ARI_RA_00" ID="{C00D4F6C-012B-48FC-8BCB-8CCD8D5C9A56}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA1_reply1" ID="{EC2485B9-D4A1-4A4D-B42A-6A57106825B0}">
+									<ChildrenList>
+										<Action Name="Play" ID="{02731FBC-AF64-4EBA-89FD-9A0417FA8653}" ShortID="568092685" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{CC168109-4D76-40BB-98EC-7B2D55B26DC1}" Global="false">
+													<ObjectRef Name="ARI_RA_01" ID="{167ED69E-97B9-471F-88B0-C897F5C9D430}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA1_reply2" ID="{69B0B388-29F5-41A6-A67A-A09C093F453C}">
+									<ChildrenList>
+										<Action Name="Play" ID="{2FEA7E5A-A7BD-4D36-AF4D-CE782A3AE159}" ShortID="602386348" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{19AF0275-E871-40BF-92B6-7B727D7648D4}" Global="false">
+													<ObjectRef Name="ARI_RA_02" ID="{DF5DC082-2381-45FF-9CE7-F514D3E70E78}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA2_firstCue" ID="{B3BF0560-8893-4D55-A7CE-A4763C73E3FA}">
+									<ChildrenList>
+										<Action Name="Play" ID="{EA162902-500B-4EE6-A7CA-422D7FFBD87E}" ShortID="255516605" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{CE38F2DA-A9D6-4D84-BEFA-B655867A5D4A}" Global="false">
+													<ObjectRef Name="ARI_RA_03" ID="{31A02015-8C20-4912-AFE1-42EBA3FFF9E9}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA3_firstCue" ID="{7B4C09A1-7DD5-44F2-9490-C9BDA14DD13C}">
+									<ChildrenList>
+										<Action Name="Play" ID="{4E02316D-35DB-4661-8DE4-FD2035E78C5E}" ShortID="637700124" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4F23BB2B-176D-41DF-86AF-7177D40FB592}" Global="false">
+													<ObjectRef Name="ARI_RA_04" ID="{46D6F10D-DB74-4029-8ACA-D4F960396FD3}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA4_firstCue" ID="{3A5D8DDF-F4F1-4AAC-9D86-882C12217711}">
+									<ChildrenList>
+										<Action Name="Play" ID="{26EFD22B-B6D2-49C3-BDF4-3A1883DA18F9}" ShortID="788954052" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{668E1B9F-FAF8-4124-AAEB-0F929FFECAD8}" Global="false">
+													<ObjectRef Name="ARI_RA_05" ID="{D783D7AA-1C7D-4EDB-9D05-68017C4A37FF}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARI_RA5_firstCue" ID="{21DD105B-8B23-403D-B3DB-9946D0A21F82}">
+									<ChildrenList>
+										<Action Name="Play" ID="{4D7B856C-E1E9-4DF9-8B90-402B16A150E5}" ShortID="959370967" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{45AEEB45-1E75-455D-B575-32F8836206B5}" Global="false">
+													<ObjectRef Name="ARI_RA_06" ID="{A39A3F2C-BCF9-48B4-BCEC-4C015C2AC504}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_06" ID="{374B493D-CDAC-479B-A1E1-7E68BABABD75}">
-							<ChildrenList>
-								<Action Name="Play" ID="{2A847F9E-7211-437F-A26D-319E3A90B537}" ShortID="964166127" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{6D22E544-879C-4973-A1CA-24FC1EA3A64B}" Global="false">
-											<ObjectRef Name="ARI_DC_06" ID="{791F339B-7223-4D49-8EAE-2EE381198EB4}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_07" ID="{2A896C23-FA82-40C3-BF32-12B9CD1F67D1}">
-							<ChildrenList>
-								<Action Name="Play" ID="{3AF7CDB9-3F86-41F6-817C-DDD65625ED16}" ShortID="351645542" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{13216F61-9620-4220-A11F-4734154BB00D}" Global="false">
-											<ObjectRef Name="ARI_DC_07" ID="{38C60B46-91CB-4E49-B1DB-724864C715A5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_08" ID="{84807112-BC99-412E-AD62-8799E98A0640}">
-							<ChildrenList>
-								<Action Name="Play" ID="{B6B49C54-52A5-46CB-8752-744B3EC9802E}" ShortID="108318379" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{6029A6DA-D03E-4B00-B79A-64A010CC6CCF}" Global="false">
-											<ObjectRef Name="ARI_DC_08" ID="{7D0140A6-6D74-4529-9303-61BD4C50C78F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_09" ID="{F85058C0-3BFF-4AA5-AB60-FB369D4920FE}">
-							<ChildrenList>
-								<Action Name="Play" ID="{128E78A8-8DFE-49B2-B767-611A3D59B7E8}" ShortID="529831107" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{7C9FE0EE-14D4-4CF9-ACD8-DD8387547E02}" Global="false">
-											<ObjectRef Name="ARI_DC_09" ID="{1AE84762-78D5-43A2-A6BD-35641B65114B}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_10" ID="{C9EC17DC-D8E5-45B4-B9E0-DC5F99A9A755}">
-							<ChildrenList>
-								<Action Name="Play" ID="{B2C0AFC5-12F8-4C02-B428-E0B31F4C435B}" ShortID="201384216" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{C8C7DB19-ACD0-4AF7-9590-B09A83A5E672}" Global="false">
-											<ObjectRef Name="ARI_DC_10" ID="{C8D574EA-82BE-4FCE-9425-821C8D84FF1E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_11" ID="{D9DC2ABC-3A71-4B7C-8BF0-E835973DABD2}">
-							<ChildrenList>
-								<Action Name="Play" ID="{DD3C17EE-52FD-4162-85DF-3D153F8C0F5C}" ShortID="253573144" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{1464D510-B2AF-474B-8101-B0E187EFB3CC}" Global="false">
-											<ObjectRef Name="ARI_DC_11" ID="{31DEB457-C1B1-4E7E-8A5F-97E29F75DC95}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_12" ID="{B727F420-E30D-4133-A498-54D799975ECB}">
-							<ChildrenList>
-								<Action Name="Play" ID="{1F4F8A4A-78CD-40E7-8A6B-8ED8E30D8FB4}" ShortID="846883401" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{3D0C9A6E-721E-4A24-8116-678F5B37F066}" Global="false">
-											<ObjectRef Name="ARI_DC_12" ID="{5C2AF5E3-1C07-4121-8039-EF8DA4AF9D1A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_00" ID="{3FF2F8EA-C3F4-4866-AC03-FF70463966A5}">
-							<ChildrenList>
-								<Action Name="Play" ID="{82D8D5A1-AEDA-495E-9177-642B5BBFFEF7}" ShortID="503375510" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{60E900E4-86E8-4247-9D27-00CFB9BC74FA}" Global="false">
-											<ObjectRef Name="ARI_DS_00" ID="{8BD8E0D6-D7ED-4A69-B1D4-C5F0268AA09E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_01" ID="{EF89CFFD-89B3-4C01-90F0-752AEC4AF2C5}">
-							<ChildrenList>
-								<Action Name="Play" ID="{73B137FF-903C-448F-8BD4-02D98C3CA21A}" ShortID="769835131" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{17E393AE-3650-4875-BE62-35711C72F753}" Global="false">
-											<ObjectRef Name="ARI_DS_01" ID="{926F1A50-C00F-4027-B373-D9D723C6020F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_02" ID="{F3994EC6-F01A-4260-9F1A-194DC5AAAB04}">
-							<ChildrenList>
-								<Action Name="Play" ID="{6111AFF4-7E0D-4FAC-8483-A651FFE66F5E}" ShortID="686670407" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{48A30A61-BA95-4D5E-B7BF-AC29C6B5A3E0}" Global="false">
-											<ObjectRef Name="ARI_DS_02" ID="{40006543-0A69-4E16-83D3-21C6210D2D83}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_03" ID="{76AC29ED-6C3E-4CED-BF70-76263E86BA80}">
-							<ChildrenList>
-								<Action Name="Play" ID="{0B0F6CC4-C05E-4B99-8E04-446F2FA34A32}" ShortID="325123266" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{07388ECA-143C-4B76-B052-0C558F030053}" Global="false">
-											<ObjectRef Name="ARI_DS_03" ID="{6F3CB08A-6EF6-4C4E-ACDB-79450BD8347F}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_04" ID="{9F6AA681-4DC0-43DC-9760-146399A79474}">
-							<ChildrenList>
-								<Action Name="Play" ID="{59794E75-096A-4086-8A69-A67FDDB038EA}" ShortID="135723887" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{431D9F71-16CE-4B5D-A2C5-ABDC1FBC61CB}" Global="false">
-											<ObjectRef Name="ARI_DS_04" ID="{CB54722A-77AE-4476-B7BF-C56F8F5B1EE7}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_05" ID="{07696AF0-8C45-450F-A4FE-7EC51B0E78D7}">
-							<ChildrenList>
-								<Action Name="Play" ID="{BA5FCA29-5D2C-432D-94A9-59EB4E25AAF9}" ShortID="129135702" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{5AC475F1-F2DF-4AB1-9424-26085B42049F}" Global="false">
-											<ObjectRef Name="ARI_DS_05" ID="{B880E250-3B3F-4E3D-B050-020364A44C50}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_06" ID="{EC477BDB-4175-4933-B3FD-44D72FA77DC8}">
-							<ChildrenList>
-								<Action Name="Play" ID="{80A45A82-B075-48CB-976D-4E4F67F0E52A}" ShortID="785421341" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{7DB43CDD-4ECF-44F4-A0E3-D5404F34B670}" Global="false">
-											<ObjectRef Name="ARI_DS_06" ID="{36311B37-F80F-4CF1-8968-00DE6E5C68B8}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_07" ID="{495C7927-D9E6-4B55-89FE-6D0A4979190B}">
-							<ChildrenList>
-								<Action Name="Play" ID="{E8646895-94CF-4F76-972E-CD9B164A842A}" ShortID="509042185" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{6BA45B51-E008-4612-BD11-17CC2C10AF44}" Global="false">
-											<ObjectRef Name="ARI_DS_07" ID="{2FADE84D-4A5F-4FBC-B887-C8FECC18CB9A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_08" ID="{9A0C8AE6-F607-4F25-8F3F-A69B599DD59A}">
-							<ChildrenList>
-								<Action Name="Play" ID="{E53813B3-E1D5-4473-89BD-0EBA47F67CF9}" ShortID="664597424" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{767B40E1-E7AF-4C9D-8D43-004162FFE2E4}" Global="false">
-											<ObjectRef Name="ARI_DS_08" ID="{24626DCA-92F5-4533-BD19-2180CEF6D28C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DS_09" ID="{9011B756-8BA4-47C6-9ACE-B85EC4CEC2BC}">
-							<ChildrenList>
-								<Action Name="Play" ID="{3E6A2F54-3800-4723-B0C8-2AEFBC846000}" ShortID="503823253" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{FB15C724-193A-4135-B4FA-E361674210D9}" Global="false">
-											<ObjectRef Name="ARI_DS_09" ID="{80DFFDD7-7AF9-4567-B265-D40724FFBC9E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_13" ID="{513FE912-2302-4AB2-8E43-33EE55539690}">
-							<ChildrenList>
-								<Action Name="Play" ID="{7352EA8A-3B05-47CB-AD2C-1F8934746A0E}" ShortID="425869736" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{3340BCA4-4704-4488-B234-681874FFBCBF}" Global="false">
-											<ObjectRef Name="ARI_DC_13" ID="{FB2F337B-5A1E-49B1-8D5F-A09DA99A879A}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_14" ID="{B3877DC6-FB50-41E3-A2F7-E12470178E69}">
-							<ChildrenList>
-								<Action Name="Play" ID="{CEB7B9C9-9D77-4C16-ABF0-DB83D8E35551}" ShortID="879160033" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{3FF44BB7-2673-40CF-9D1E-415B512502FF}" Global="false">
-											<ObjectRef Name="ARI_DC_14" ID="{7B15CFCE-7FA8-4C6F-8D7E-D4CE2070A0CE}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_15" ID="{2B155F91-8BEA-46E6-92BC-3ADE63D6EF74}">
-							<ChildrenList>
-								<Action Name="Play" ID="{FEEAA2C8-B05E-486E-8F8A-9D22F235A41A}" ShortID="867012590" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{5C85D211-1485-4A14-A671-20718A99FED0}" Global="false">
-											<ObjectRef Name="ARI_DC_15" ID="{A2BD4049-B114-4354-8187-AB21EAB68946}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_16" ID="{CE2E83D9-F031-4D2E-9F66-DBF1747773AE}">
-							<ChildrenList>
-								<Action Name="Play" ID="{24ACC5D0-99DD-465D-904F-0E4C98E1FE7D}" ShortID="865184448" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{4485D123-5988-4ECA-A9C9-A6559855E811}" Global="false">
-											<ObjectRef Name="ARI_DC_16" ID="{533EBE10-03FB-431F-9DA3-8F1FC527279E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_17" ID="{BCE17A72-8E4B-4EE7-A9C6-126BD7B7AE64}">
-							<ChildrenList>
-								<Action Name="Play" ID="{7C75D4B5-3366-448F-9DA7-CC9098725FB9}" ShortID="1000796112" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{1F4F118C-5673-42A8-8AE2-D21094D89CBC}" Global="false">
-											<ObjectRef Name="ARI_DC_17" ID="{E1FE79B8-8F37-4ADA-9A21-09348700693D}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_18" ID="{8154E422-33B6-422A-8DE8-FD335D838CFF}">
-							<ChildrenList>
-								<Action Name="Play" ID="{9AFC7061-098E-4F60-B5A2-1D0ECC54E6AA}" ShortID="269122120" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{12873506-B0C6-4CEB-86D1-E2E77A3B6634}" Global="false">
-											<ObjectRef Name="ARI_DC_18" ID="{A3383CE3-134B-4C94-AF94-EF175EB492FB}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_19" ID="{E94E7F72-C12F-4A89-83C7-4ED4B7641896}">
-							<ChildrenList>
-								<Action Name="Play" ID="{E237619F-8AEE-4126-A4C8-5A71D541C1FF}" ShortID="308540573" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{77F91A5E-410E-41DF-AB23-22688B79C195}" Global="false">
-											<ObjectRef Name="ARI_DC_19" ID="{8EA3E740-8723-4943-A348-DF69C9E063DB}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_20" ID="{5CEC323F-111F-450E-99F6-329241935277}">
-							<ChildrenList>
-								<Action Name="Play" ID="{6DE81304-D4FD-4578-8142-22DE8790A973}" ShortID="74317679" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{51F523CC-9B9B-42EF-990F-B502A3FE56E8}" Global="false">
-											<ObjectRef Name="ARI_DC_20" ID="{3CF4FBEE-CEB4-4EDB-8CA3-C78C36D37054}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_21" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}">
-							<ChildrenList>
-								<Action Name="Play" ID="{2728A292-ADF6-4001-A519-88420819B1B7}" ShortID="361763911" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{E55D5693-448C-4370-BAE2-9534C1C0AE05}" Global="false">
-											<ObjectRef Name="ARI_DC_21" ID="{2AE8EC2F-488A-4E66-9F86-7EE3870FFF2C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_22" ID="{AB24FEC8-C951-4BB3-871A-0632341D17AC}">
-							<ChildrenList>
-								<Action Name="Play" ID="{70D68B5A-1C38-4B6D-A261-D12E7F488835}" ShortID="249724575" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{D7B58432-9192-461D-B577-4F0C95026F48}" Global="false">
-											<ObjectRef Name="ARI_DC_22" ID="{5B3D2C0B-5586-4948-AA57-FE24A670CED5}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_23" ID="{956C0B3C-C5B7-4E03-95BD-8101AA99CC55}">
-							<ChildrenList>
-								<Action Name="Play" ID="{393B512F-D161-4AEA-AC85-7A8705330824}" ShortID="143585590" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{D376335F-F02E-48E7-9F25-2C1C6089034B}" Global="false">
-											<ObjectRef Name="ARI_DC_23" ID="{B1843406-9323-417B-AE31-671ADD27BAF0}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_24" ID="{3F66B84A-2DFD-434A-B4A2-B711E1897506}">
-							<ChildrenList>
-								<Action Name="Play" ID="{8D1CFFD1-0D5A-400E-B8DC-8CC0A0291ED4}" ShortID="419594980" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{F61950E7-A849-4ED3-8C9D-C466886D1B2D}" Global="false">
-											<ObjectRef Name="ARI_DC_24" ID="{7075A0C0-A71C-48DD-A85B-15CF1FD3B1CF}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_25" ID="{0E1B2B71-D865-4105-8C37-525CFE10B8C0}">
-							<ChildrenList>
-								<Action Name="Play" ID="{F6713181-3AFD-4A0D-ADE5-F3D92513C4CD}" ShortID="180119626" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{F6130EAA-D84D-4E22-AE2E-B489F4B8C0AC}" Global="false">
-											<ObjectRef Name="ARI_DC_25" ID="{6A2B1AA5-6D73-418B-9B19-3EA11615575E}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_26" ID="{3FACD0A3-7600-4FF5-95A6-8FCDB6863427}">
-							<ChildrenList>
-								<Action Name="Play" ID="{F0C86F31-3FBA-46D6-A0F3-2A6AF5B12B83}" ShortID="140689833" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{C6A5A8BE-084E-4A55-9E43-72994022AE70}" Global="false">
-											<ObjectRef Name="ARI_DC_26" ID="{7D1CF4C0-BF98-4523-AF03-4D38005B6E07}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_DC_27" ID="{D0050091-976A-48D8-A624-6CD96E64C075}">
-							<ChildrenList>
-								<Action Name="Play" ID="{E16BF6C5-6EA5-4B06-8BD3-76D71CA5ADF0}" ShortID="458138154" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{411C9889-2F4B-4C5A-A5DD-FEED1BD905CD}" Global="false">
-											<ObjectRef Name="ARI_DC_27" ID="{E4CAADB9-0AB3-4E8F-BE40-1248287321B3}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_00" ID="{599F3404-8675-4BAB-967B-FB16D915A2E2}">
-							<ChildrenList>
-								<Action Name="Play" ID="{FB606567-3E3A-410B-9B50-D45AD43C0E35}" ShortID="982682800" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{8542AD57-1475-486E-8A0B-3EA02AF09457}" Global="false">
-											<ObjectRef Name="ARI_RA_00" ID="{C00D4F6C-012B-48FC-8BCB-8CCD8D5C9A56}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_01" ID="{EC2485B9-D4A1-4A4D-B42A-6A57106825B0}">
-							<ChildrenList>
-								<Action Name="Play" ID="{02731FBC-AF64-4EBA-89FD-9A0417FA8653}" ShortID="568092685" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{CC168109-4D76-40BB-98EC-7B2D55B26DC1}" Global="false">
-											<ObjectRef Name="ARI_RA_01" ID="{167ED69E-97B9-471F-88B0-C897F5C9D430}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_02" ID="{69B0B388-29F5-41A6-A67A-A09C093F453C}">
-							<ChildrenList>
-								<Action Name="Play" ID="{2FEA7E5A-A7BD-4D36-AF4D-CE782A3AE159}" ShortID="602386348" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{19AF0275-E871-40BF-92B6-7B727D7648D4}" Global="false">
-											<ObjectRef Name="ARI_RA_02" ID="{DF5DC082-2381-45FF-9CE7-F514D3E70E78}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_03" ID="{B3BF0560-8893-4D55-A7CE-A4763C73E3FA}">
-							<ChildrenList>
-								<Action Name="Play" ID="{EA162902-500B-4EE6-A7CA-422D7FFBD87E}" ShortID="255516605" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{CE38F2DA-A9D6-4D84-BEFA-B655867A5D4A}" Global="false">
-											<ObjectRef Name="ARI_RA_03" ID="{31A02015-8C20-4912-AFE1-42EBA3FFF9E9}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_04" ID="{7B4C09A1-7DD5-44F2-9490-C9BDA14DD13C}">
-							<ChildrenList>
-								<Action Name="Play" ID="{4E02316D-35DB-4661-8DE4-FD2035E78C5E}" ShortID="637700124" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{4F23BB2B-176D-41DF-86AF-7177D40FB592}" Global="false">
-											<ObjectRef Name="ARI_RA_04" ID="{46D6F10D-DB74-4029-8ACA-D4F960396FD3}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_05" ID="{3A5D8DDF-F4F1-4AAC-9D86-882C12217711}">
-							<ChildrenList>
-								<Action Name="Play" ID="{26EFD22B-B6D2-49C3-BDF4-3A1883DA18F9}" ShortID="788954052" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{668E1B9F-FAF8-4124-AAEB-0F929FFECAD8}" Global="false">
-											<ObjectRef Name="ARI_RA_05" ID="{D783D7AA-1C7D-4EDB-9D05-68017C4A37FF}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RA_06" ID="{21DD105B-8B23-403D-B3DB-9946D0A21F82}">
-							<ChildrenList>
-								<Action Name="Play" ID="{4D7B856C-E1E9-4DF9-8B90-402B16A150E5}" ShortID="959370967" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{45AEEB45-1E75-455D-B575-32F8836206B5}" Global="false">
-											<ObjectRef Name="ARI_RA_06" ID="{A39A3F2C-BCF9-48B4-BCEC-4C015C2AC504}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_00" ID="{5926434C-AE6E-416F-B858-8DD59F61ECA7}">
-							<ChildrenList>
-								<Action Name="Play" ID="{2710C0EE-4C96-4A28-AC5E-4319D3E70417}" ShortID="1017757420" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{1D6DC259-A0F7-45AA-BC78-CD782BCF1C2D}" Global="false">
-											<ObjectRef Name="ARI_RS_00" ID="{B74D4EC0-F612-4B3A-A428-945D7A54DF89}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_01" ID="{1AB5990A-1FCB-40FB-9B1E-2C3271C6266A}">
-							<ChildrenList>
-								<Action Name="Play" ID="{F6E52BC4-A5EC-4CE9-962F-336FB9039AED}" ShortID="333110301" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{DBA4EAA0-B194-4B4B-86FD-E0A9E86C5267}" Global="false">
-											<ObjectRef Name="ARI_RS_01" ID="{A44C4225-EAA5-4569-B07D-DCFF4DAAD87B}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_02" ID="{306270CD-E6F4-4378-A9E2-5E3011ECA3DE}">
-							<ChildrenList>
-								<Action Name="Play" ID="{BDC1CA01-5E77-4B85-B0FE-012982452300}" ShortID="627315676" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{30398513-9491-4FD5-83D5-F68D9E4E148C}" Global="false">
-											<ObjectRef Name="ARI_RS_02" ID="{741CDB7C-AA4C-4A16-9FDE-3A30A9EE8202}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_03" ID="{07B598BC-EC7D-459D-9DC4-CB968775C3AB}">
-							<ChildrenList>
-								<Action Name="Play" ID="{76ED968B-3181-4A1D-9824-7E66608AFD83}" ShortID="189768716" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{ADB206C3-98E9-4C78-B9DB-5D50B2774626}" Global="false">
-											<ObjectRef Name="ARI_RS_03" ID="{CCF38305-6F54-4630-B546-CF0AEDF6BD46}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_04" ID="{87A09795-012D-4DD1-85CD-17E69C9A6EFC}">
-							<ChildrenList>
-								<Action Name="Play" ID="{133CCF17-1750-49BF-A174-A536E7393A2C}" ShortID="787047515" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{A5058F95-6F09-4667-80D6-9210335767B8}" Global="false">
-											<ObjectRef Name="ARI_RS_04" ID="{95A47420-2C34-42FC-AD45-53A73271F64C}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_05" ID="{62BC6500-15F5-49EE-B485-7D8F665511BE}">
-							<ChildrenList>
-								<Action Name="Play" ID="{885B6DD5-E3B8-4890-AF3A-A5A2A70476CF}" ShortID="664200697" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{668701BE-6D28-49E0-8454-51BD3A850B2C}" Global="false">
-											<ObjectRef Name="ARI_RS_05" ID="{A594D594-878D-40E4-BE87-090AD4763390}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_06" ID="{D0DD682F-7972-44EF-8C13-9DD9223BAD21}">
-							<ChildrenList>
-								<Action Name="Play" ID="{DF016673-8E16-4434-8782-AFE8294A5A4C}" ShortID="802376982" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{D3A08597-D01F-48DB-A717-7EB5AFDB1C84}" Global="false">
-											<ObjectRef Name="ARI_RS_06" ID="{05BE8B65-4FCB-4BF6-8109-5F31F3E7C2A9}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_07" ID="{5E3642A0-27BC-4DCB-89B6-3AD855B622C9}">
-							<ChildrenList>
-								<Action Name="Play" ID="{37E6BE00-9030-4EE5-A1D9-BD302B868F93}" ShortID="977085217" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{791F3C87-9082-435F-916C-1FEEE44ED731}" Global="false">
-											<ObjectRef Name="ARI_RS_07" ID="{89F654E8-C583-436E-A693-88C660333327}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_08" ID="{BE0203B5-1A5D-4C3D-BB7F-C5ED7CEFFEDE}">
-							<ChildrenList>
-								<Action Name="Play" ID="{17EB11C0-D3E1-4EBF-956B-0E556B594782}" ShortID="766869295" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{8662D9F8-057C-4280-AAFE-1C52B09D8759}" Global="false">
-											<ObjectRef Name="ARI_RS_08" ID="{2C5D2AB4-84F5-4EED-A527-6E5DDCA03335}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ARI_RS_09" ID="{C9CD0394-B85C-4AB5-BF0F-E21528AD75E0}">
-							<ChildrenList>
-								<Action Name="Play" ID="{C7B7CB00-73EB-46AD-A950-C282D0A4CA93}" ShortID="134562467" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{361609FC-9C8C-4315-94A9-D7E0590837EC}" Global="false">
-											<ObjectRef Name="ARI_RS_09" ID="{AFA2758B-DFDF-4147-9C2A-B7FEC1A664EE}" WorkUnitID="{A4591E33-4760-4DBC-B298-62AB101F908A}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Mouvements" ID="{7CE7EC3E-C53E-449B-A9E2-E4E602FB6C42}" ShortID="945360606">

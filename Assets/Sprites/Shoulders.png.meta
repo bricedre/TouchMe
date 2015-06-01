@@ -1,6 +1,19 @@
 fileFormatVersion: 2
 guid: b393544e3407ab24eb3d3b0ec4a437fc
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Shoulders_0
+    21300002: Shoulders_1
+    21300004: Shoulders_2
+    21300006: Shoulders_3
+    21300008: Shoulders_4
+    21300010: Shoulders_5
+    21300012: Shoulders_6
+    21300014: Shoulders_7
+    21300016: Shoulders_8
+    21300018: Shoulders_9
+    21300020: Shoulders_10
+    21300022: Shoulders_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +64,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_1
       rect:
         serializedVersion: 2
@@ -59,6 +74,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_2
       rect:
         serializedVersion: 2
@@ -68,6 +84,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_3
       rect:
         serializedVersion: 2
@@ -77,6 +94,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_4
       rect:
         serializedVersion: 2
@@ -86,6 +104,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_5
       rect:
         serializedVersion: 2
@@ -95,6 +114,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_6
       rect:
         serializedVersion: 2
@@ -104,6 +124,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_7
       rect:
         serializedVersion: 2
@@ -113,6 +134,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_8
       rect:
         serializedVersion: 2
@@ -122,6 +144,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_9
       rect:
         serializedVersion: 2
@@ -131,6 +154,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_10
       rect:
         serializedVersion: 2
@@ -140,6 +164,7 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Shoulders_11
       rect:
         serializedVersion: 2
@@ -149,5 +174,6 @@ TextureImporter:
         height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

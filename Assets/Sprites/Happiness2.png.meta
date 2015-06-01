@@ -1,6 +1,18 @@
 fileFormatVersion: 2
 guid: abe4eb87d67d0b8439819ba06414d06b
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Happiness2_0
+    21300002: Happiness2_1
+    21300004: Happiness2_2
+    21300006: Happiness2_3
+    21300008: Happiness2_4
+    21300010: Happiness2_5
+    21300012: Happiness2_6
+    21300014: Happiness2_7
+    21300016: Happiness2_8
+    21300018: Happiness2_9
+    21300020: Happiness2_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +63,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_1
       rect:
         serializedVersion: 2
@@ -59,6 +73,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_2
       rect:
         serializedVersion: 2
@@ -68,6 +83,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_3
       rect:
         serializedVersion: 2
@@ -77,6 +93,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_4
       rect:
         serializedVersion: 2
@@ -86,6 +103,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_5
       rect:
         serializedVersion: 2
@@ -95,6 +113,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_6
       rect:
         serializedVersion: 2
@@ -104,6 +123,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_7
       rect:
         serializedVersion: 2
@@ -113,6 +133,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_8
       rect:
         serializedVersion: 2
@@ -122,6 +143,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_9
       rect:
         serializedVersion: 2
@@ -131,6 +153,7 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Happiness2_10
       rect:
         serializedVersion: 2
@@ -140,5 +163,6 @@ TextureImporter:
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,0 +1,114 @@
+Event	ID	Name			Wwise Object Path	Notes
+	237756441	ARI_DC2_3_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_3_reply1	
+	237756442	ARI_DC2_3_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_3_reply2	
+	237756443	ARI_DC2_3_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_3_reply3	
+	288198216	ARI_RS1_3			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_3	
+	288198217	ARI_RS1_2			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_2	
+	288198218	ARI_RS1_1			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_1	
+	288198221	ARI_RS1_6			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_6	
+	288198222	ARI_RS1_5			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_5	
+	288198223	ARI_RS1_4			\Default Work Unit\Dialogues\Repliques Simples Positives\ARI_RS1_4	
+	436105707	ARI_RA4_firstCue			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA4_firstCue	
+	481330046	ARI_DS3_firstCue			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS3_firstCue	
+	511183694	ARI_RA3_firstCue			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA3_firstCue	
+	1075404114	ARI_DC1_1_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_1_reply1	
+	1186648594	ARI_DC1_4_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_4_reply2	
+	1186648595	ARI_DC1_4_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_4_reply3	
+	1241344012	ARI_DC2_2_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_2_firstCue	
+	1242013260	ARI_DS1_firstCue			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS1_firstCue	
+	1518699517	ARI_DC1_2_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_2_firstCue	
+	1544198501	ARI_DS2_reply3			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS2_reply3	
+	1544198503	ARI_DS2_reply1			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS2_reply1	
+	1580255941	ARI_RA1_reply2			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA1_reply2	
+	1580255942	ARI_RA1_reply1			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA1_reply1	
+	1662298240	ARI_RA5_firstCue			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA5_firstCue	
+	1798913884	ARI_RA1_firstCue			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA1_firstCue	
+	2059356769	ARI_RA2_firstCue			\Default Work Unit\Dialogues\Repliques Actions\ARI_RA2_firstCue	
+	2150781114	ARI_DC2_4_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_4_reply3	
+	2150781115	ARI_DC2_4_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_4_reply2	
+	2197594962	ARI_DC2_4_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_4_firstCue	
+	2306198791	ARI_DC2_3_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_3_firstCue	
+	2472171136	ARI_DC1_2_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_2_reply2	
+	2472171137	ARI_DC1_2_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_2_reply3	
+	2472171139	ARI_DC1_2_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_2_reply1	
+	2473015633	ARI_DC2_1_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_1_firstCue	
+	2642626000	ARI_DC1_3_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_3_reply1	
+	2642626002	ARI_DC1_3_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_3_reply3	
+	2642626003	ARI_DC1_3_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_3_reply2	
+	2894117732	ARI_DS3_reply1			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS3_reply1	
+	2894117734	ARI_DS3_reply3			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS3_reply3	
+	2894117735	ARI_DS3_reply2			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS3_reply2	
+	3073849588	ARI_DS1_reply3			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS1_reply3	
+	3073849589	ARI_DS1_reply2			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS1_reply2	
+	3155267492	ARI_DC2_1_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_1_reply2	
+	3155267493	ARI_DC2_1_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_1_reply3	
+	3155267495	ARI_DC2_1_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_1_reply1	
+	3509250832	ARI_RS2_4			\Default Work Unit\Dialogues\Repliques Simples Negatives\ARI_RS2_4	
+	3509250837	ARI_RS2_1			\Default Work Unit\Dialogues\Repliques Simples Negatives\ARI_RS2_1	
+	3509250838	ARI_RS2_2			\Default Work Unit\Dialogues\Repliques Simples Negatives\ARI_RS2_2	
+	3509250839	ARI_RS2_3			\Default Work Unit\Dialogues\Repliques Simples Negatives\ARI_RS2_3	
+	3542827864	ARI_DC1_1_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_1_firstCue	
+	3626435985	ARI_DS2_firstCue			\Default Work Unit\Dialogues\Dialogues Scriptes\ARI_DS2_firstCue	
+	3704760698	ARI_DC1_3_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_3_firstCue	
+	3764733647	ARI_DC1_4_firstCue			\Default Work Unit\Dialogues\Dialogues Contextuels Positifs\ARI_DC1_4_firstCue	
+	4214203188	ARI_DC2_2_reply3			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_2_reply3	
+	4214203189	ARI_DC2_2_reply2			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_2_reply2	
+	4214203190	ARI_DC2_2_reply1			\Default Work Unit\Dialogues\Dialogues Contextuels Negatifs\ARI_DC2_2_reply1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8589898	ARI_DC_26	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_26_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_26		36427
+	10894816	ARI_RS_07	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_07_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples négatives\ARI_RS_07		40588
+	30672478	ARI_DC_12	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_12_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_12		65122
+	48346560	ARI_DC_23	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_23_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_23		45295
+	59512995	ARI_RA_00	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_00_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_00		28244
+	76755841	ARI_DC_11	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_11_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_11		35080
+	91531096	ARI_DC_14	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_14_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_14		49052
+	92920117	ARI_DC_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_02		24663
+	107111175	ARI_DC_04	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_04_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_04		23020
+	128589999	ARI_RS_06	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_06_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples négatives\ARI_RS_06		82259
+	128911939	ARI_DS_09	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_09_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_09		18586
+	170380169	ARI_RA_03	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_03_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_03		43102
+	208019977	ARI_DC_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_01		21841
+	213593618	ARI_DC_10	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_10_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_10		47248
+	216021773	ARI_DC_06	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_06_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_06		23297
+	279227010	ARI_DS_00	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_00_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_00		36993
+	320121308	ARI_DC_17	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_17_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_17		90274
+	350487260	ARI_DC_24	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_24_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_24		21991
+	385892569	ARI_DC_05	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_05_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_05		27140
+	413509774	ARI_DS_03	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_03_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_03		50725
+	424574448	ARI_DC_00	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_00_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_00		28869
+	438312180	ARI_RA_06	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_06_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_06		50133
+	445653079	ARI_DS_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_01		46298
+	469354625	ARI_RS_08	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_08_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples négatives\ARI_RS_08		68716
+	493603571	ARI_RS_03	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_03_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_03		41661
+	524101620	ARI_DC_19	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_19_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_19		19245
+	548982887	ARI_DC_07	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_07_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_07		26400
+	561721429	ARI_RS_00	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_00_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_00		21226
+	602126849	ARI_DC_25	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_25_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_25		24746
+	604148447	ARI_DC_13	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_13_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_13		17553
+	617918127	ARI_DC_15	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_15_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_15		33938
+	625662060	ARI_DC_08	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_08_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_08		22092
+	629954644	ARI_DS_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_02		27195
+	691985487	ARI_DC_27	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_27_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_27		25456
+	708375333	ARI_RS_04	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_04_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_04		42044
+	715438565	ARI_DS_06	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_06_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_06		29581
+	733206503	ARI_DC_18	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_18_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_18		35633
+	762083414	ARI_RS_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_02		41059
+	768350057	ARI_DC_16	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_16_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_16		28025
+	797264161	ARI_RA_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_01		28876
+	833292592	ARI_RS_05	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_05_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_05		59252
+	857627629	ARI_RA_05	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_05_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_05		31910
+	863375651	ARI_DC_21	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_21_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_21		59200
+	870810140	ARI_RA_04	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_04_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_04		38292
+	877485264	ARI_DC_22	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_22_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_22		29742
+	885898654	ARI_DS_08	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_08_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_08		22291
+	892937165	ARI_DS_07	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_07_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_07		13597
+	912874749	ARI_RS_09	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_09_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples négatives\ARI_RS_09		23462
+	916607912	ARI_DS_05	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_05_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_05		29893
+	927581670	ARI_DC_20	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_20_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels négatifs\ARI_DC_20		35477
+	972847680	ARI_DC_03	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_03_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_03		16268
+	1008663791	ARI_DC_09	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DC_09_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues contextuels positifs\ARI_DC_09		24251
+	1040749475	ARI_RA_02	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RA_02_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques actions\ARI_RA_02		20387
+	1049570217	ARI_RS_01	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_RS_01_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Répliques simples positives\ARI_RS_01		58016
+	1050183987	ARI_DS_04	C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\Voices\English(US)\ARI_DS_04_76A5D070.wem		\Actor-Mixer Hierarchy\Main\Ariette\Dialogues scriptés\ARI_DS_04		29858
+
