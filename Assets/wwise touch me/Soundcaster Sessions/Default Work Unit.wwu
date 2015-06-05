@@ -33,6 +33,14 @@
 							<ObjectRef Name="ARI_DC2_3_firstCue" ID="{C8DF19B5-2DD8-4C9D-95C4-B0CC629B70B3}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="ARI_DC1_2_reply2" ID="{4FDAC2FF-CBF1-407E-97F5-F958BD1AE8E4}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARI_DC1_4_reply3" ID="{B727F420-E30D-4133-A498-54D799975ECB}" WorkUnitID="{D9196E46-5679-44DC-8D26-3AA50F4D7F1C}"/>
+							<Position X="6" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

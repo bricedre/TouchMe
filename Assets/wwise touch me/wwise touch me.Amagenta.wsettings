@@ -41,6 +41,7 @@
 						<Value Platform="VitaHW">GeneratedSoundBanks\VitaHW</Value>
 					</ValueList>
 				</Property>
+				<Property Name="SettingsUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -49,7 +50,7 @@
 						<Value Platform="WindowsPhone">GeneratedSoundBanks\WindowsPhone\</Value>
 						<Value Platform="XboxOne">GeneratedSoundBanks\XboxOne\</Value>
 						<Value Platform="VitaSW">GeneratedSoundBanks\VitaSW\</Value>
-						<Value Platform="Windows">..\StreamingAssets\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\StreamingAssets\</Value>
 						<Value Platform="Wii">GeneratedSoundBanks\Wii\</Value>
 						<Value Platform="WiiUSW">GeneratedSoundBanks\WiiUSW\</Value>
 						<Value Platform="Xbox360">GeneratedSoundBanks\XBox360\</Value>
