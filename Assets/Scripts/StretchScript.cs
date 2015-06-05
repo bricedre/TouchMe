@@ -94,6 +94,26 @@ public class StretchScript : MonoBehaviour {
 			                                          + selfInfluence.ownRotOffset * limb.gameObject.GetComponent<AnimatedSprite>().relativeTime);
 		}
 
+		if(withinBounds && stretchRatio > maxStretch){
+			
+			limb.transform.position = new Vector3 ((anchor.position.x + handle.position.x) / 2.0f
+			                                       + parentInfluence.parentPosOffset.x
+			                                       + selfInfluence.ownPosOffset.x,
+			                                       
+			                                       (anchor.position.y + handle.position.y) / 2.0f
+			                                       + parentInfluence.parentPosOffset.y
+			                                       + selfInfluence.ownPosOffset.y,
+			                                       
+			                                       limb.transform.position.z);
+			
+			limb.transform.eulerAngles = new Vector3 (limb.transform.rotation.x,
+			                                          
+			                                          limb.transform.rotation.y,
+			                                          
+			                                          parentInfluence.parentRotOffset
+			                                          + selfInfluence.ownRotOffset);
+		}
+
 		else{
 
 			limb.transform.position = new Vector3 ((anchor.position.x + handle.position.x) / 2.0f,

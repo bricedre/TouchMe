@@ -12,15 +12,20 @@ public class AudioManager : MonoBehaviour {
 		AkSoundEngine.LoadBank ("Main", AkSoundEngine.AK_DEFAULT_POOL_ID, out mainBankID);
 	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
+	//play a specific event
 	public void playEvent(string eventName){
 
 		AkSoundEngine.PostEvent (eventName, gameObject);
 
+	}
+
+	//stop a specific event
+	public void stopEvent(string eventName, int fadeout){
+
+		uint eventID;
+		eventID = AkSoundEngine.GetIDFromString (eventName);
+		AkSoundEngine.ExecuteActionOnEvent(eventID, AkActionOnEventType.AkActionOnEventType_Stop, gameObject, fadeout * 1000, AkCurveInterpolation.AkCurveInterpolation_Sine);
+		
 	}
 }

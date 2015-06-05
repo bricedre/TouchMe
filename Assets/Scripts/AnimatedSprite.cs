@@ -10,7 +10,7 @@ public class AnimatedSprite : MonoBehaviour {
 	void Start () {
 
 		anim = gameObject.GetComponent<Animator> ();
-		stretchScript = GameObject.Find(this.name+"Stretch").GetComponent<StretchScript> ();
+		stretchScript = GameObject.Find(this.name + "Stretch").GetComponent<StretchScript> ();
 
 	}
 

@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StretchScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AnimatedSprite.cs">
     <Files>
-      <File FileName="..\Exchecquer\Assets\PilonesManager.cs" Line="26" Column="2" />
-      <File FileName="Assets\Scripts\StretchScript.cs" Line="105" Column="72" />
+      <File FileName="Assets\Scripts\AnimatedSprite.cs" Line="36" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
