@@ -13,66 +13,6 @@ namespace AK
 {
     namespace EVENTS
     {
-<<<<<<< HEAD
-        static const AkUniqueID CORPS_ELASTIQUE = 4031138612U;
-        static const AkUniqueID MUSIC_PLAY_01 = 636831067U;
-        static const AkUniqueID NEGATIFS = 3951105902U;
-        static const AkUniqueID PLAY_ARI_DC_00 = 1702514755U;
-        static const AkUniqueID PLAY_ARI_DC_01 = 1702514754U;
-        static const AkUniqueID PLAY_ARI_DC_02 = 1702514753U;
-        static const AkUniqueID PLAY_ARI_DC_03 = 1702514752U;
-        static const AkUniqueID PLAY_ARI_DC_04 = 1702514759U;
-        static const AkUniqueID PLAY_ARI_DC_05 = 1702514758U;
-        static const AkUniqueID PLAY_ARI_DC_06 = 1702514757U;
-        static const AkUniqueID PLAY_ARI_DC_07 = 1702514756U;
-        static const AkUniqueID PLAY_ARI_DC_08 = 1702514763U;
-        static const AkUniqueID PLAY_ARI_DC_09 = 1702514762U;
-        static const AkUniqueID PLAY_ARI_DC_10 = 1685737168U;
-        static const AkUniqueID PLAY_ARI_DC_11 = 1685737169U;
-        static const AkUniqueID PLAY_ARI_DC_12 = 1685737170U;
-        static const AkUniqueID PLAY_ARI_DC_13 = 1685737171U;
-        static const AkUniqueID PLAY_ARI_DC_14 = 1685737172U;
-        static const AkUniqueID PLAY_ARI_DC_15 = 1685737173U;
-        static const AkUniqueID PLAY_ARI_DC_16 = 1685737174U;
-        static const AkUniqueID PLAY_ARI_DC_17 = 1685737175U;
-        static const AkUniqueID PLAY_ARI_DC_18 = 1685737176U;
-        static const AkUniqueID PLAY_ARI_DC_19 = 1685737177U;
-        static const AkUniqueID PLAY_ARI_DC_20 = 1736070057U;
-        static const AkUniqueID PLAY_ARI_DC_21 = 1736070056U;
-        static const AkUniqueID PLAY_ARI_DC_22 = 1736070059U;
-        static const AkUniqueID PLAY_ARI_DC_23 = 1736070058U;
-        static const AkUniqueID PLAY_ARI_DC_24 = 1736070061U;
-        static const AkUniqueID PLAY_ARI_DC_25 = 1736070060U;
-        static const AkUniqueID PLAY_ARI_DC_26 = 1736070063U;
-        static const AkUniqueID PLAY_ARI_DC_27 = 1736070062U;
-        static const AkUniqueID PLAY_ARI_DS_00 = 371262003U;
-        static const AkUniqueID PLAY_ARI_DS_01 = 371262002U;
-        static const AkUniqueID PLAY_ARI_DS_02 = 371262001U;
-        static const AkUniqueID PLAY_ARI_DS_03 = 371262000U;
-        static const AkUniqueID PLAY_ARI_DS_04 = 371262007U;
-        static const AkUniqueID PLAY_ARI_DS_05 = 371262006U;
-        static const AkUniqueID PLAY_ARI_DS_06 = 371262005U;
-        static const AkUniqueID PLAY_ARI_DS_07 = 371262004U;
-        static const AkUniqueID PLAY_ARI_DS_08 = 371262011U;
-        static const AkUniqueID PLAY_ARI_DS_09 = 371262010U;
-        static const AkUniqueID PLAY_ARI_RA_00 = 581278911U;
-        static const AkUniqueID PLAY_ARI_RA_01 = 581278910U;
-        static const AkUniqueID PLAY_ARI_RA_02 = 581278909U;
-        static const AkUniqueID PLAY_ARI_RA_03 = 581278908U;
-        static const AkUniqueID PLAY_ARI_RA_04 = 581278907U;
-        static const AkUniqueID PLAY_ARI_RA_05 = 581278906U;
-        static const AkUniqueID PLAY_ARI_RA_06 = 581278905U;
-        static const AkUniqueID PLAY_ARI_RS_00 = 3339726073U;
-        static const AkUniqueID PLAY_ARI_RS_01 = 3339726072U;
-        static const AkUniqueID PLAY_ARI_RS_02 = 3339726075U;
-        static const AkUniqueID PLAY_ARI_RS_03 = 3339726074U;
-        static const AkUniqueID PLAY_ARI_RS_04 = 3339726077U;
-        static const AkUniqueID PLAY_ARI_RS_05 = 3339726076U;
-        static const AkUniqueID PLAY_ARI_RS_06 = 3339726079U;
-        static const AkUniqueID PLAY_ARI_RS_07 = 3339726078U;
-        static const AkUniqueID PLAY_ARI_RS_08 = 3339726065U;
-        static const AkUniqueID PLAY_ARI_RS_09 = 3339726064U;
-=======
         static const AkUniqueID ARI_DC1_1_FIRSTCUE = 3542827864U;
         static const AkUniqueID ARI_DC1_1_REPLY1 = 1075404114U;
         static const AkUniqueID ARI_DC1_1_REPLY2 = 1075404113U;
@@ -117,6 +57,8 @@ namespace AK
         static const AkUniqueID ARI_DS3_REPLY1 = 2894117732U;
         static const AkUniqueID ARI_DS3_REPLY2 = 2894117735U;
         static const AkUniqueID ARI_DS3_REPLY3 = 2894117734U;
+        static const AkUniqueID ARI_ONO_NEGATIVES = 4240768999U;
+        static const AkUniqueID ARI_ONO_POSITIVES = 3990056815U;
         static const AkUniqueID ARI_RA1_FIRSTCUE = 1798913884U;
         static const AkUniqueID ARI_RA1_REPLY1 = 1580255942U;
         static const AkUniqueID ARI_RA1_REPLY2 = 1580255941U;
@@ -143,8 +85,6 @@ namespace AK
         static const AkUniqueID ARI_RP2 = 3275653364U;
         static const AkUniqueID ARI_RP3 = 3275653365U;
         static const AkUniqueID ARI_RP4 = 3275653362U;
-        static const AkUniqueID ARI_RS_ONOMATOPEES_NEGATIVES = 1190878779U;
-        static const AkUniqueID ARI_RS_ONOMATOPEES_POSITIVES = 3322066083U;
         static const AkUniqueID ARI_RS1_1 = 288198218U;
         static const AkUniqueID ARI_RS1_2 = 288198217U;
         static const AkUniqueID ARI_RS1_3 = 288198216U;
@@ -157,7 +97,6 @@ namespace AK
         static const AkUniqueID CORPS_ELASTIQUE = 4031138612U;
         static const AkUniqueID MUSIC_PLAY_01 = 636831067U;
         static const AkUniqueID NEGATIFS = 3951105902U;
->>>>>>> 28313df78764140fb04854169bfb7e7865d69c2e
         static const AkUniqueID POSITIFS = 1461307238U;
         static const AkUniqueID TOUCH_PLAY = 4034399387U;
         static const AkUniqueID TOUCH_STOP = 2862285649U;

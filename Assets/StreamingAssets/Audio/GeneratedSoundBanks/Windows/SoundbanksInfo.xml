@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" SchemaVersion="10" SoundbankVersion="112">
 	<RootPaths>
-		<ProjectRoot>G:\GitHub\TouchMe\Assets\wwise touch me\</ProjectRoot>
-		<SourceFilesRoot>G:\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>G:\GitHub\TouchMe\Assets\StreamingAssets\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>G:\GitHub\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -20,6 +20,9 @@
 			<Path>English(US)\Ariette.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3542827864" Name="ARI_DC1_1_firstCue"/>
+				<Event Id="1075404114" Name="ARI_DC1_1_reply1"/>
+				<Event Id="1075404113" Name="ARI_DC1_1_reply2"/>
+				<Event Id="1075404112" Name="ARI_DC1_1_reply3"/>
 				<Event Id="1518699517" Name="ARI_DC1_2_firstCue"/>
 				<Event Id="2472171139" Name="ARI_DC1_2_reply1"/>
 				<Event Id="2472171136" Name="ARI_DC1_2_reply2"/>
@@ -29,6 +32,7 @@
 				<Event Id="2642626003" Name="ARI_DC1_3_reply2"/>
 				<Event Id="2642626002" Name="ARI_DC1_3_reply3"/>
 				<Event Id="3764733647" Name="ARI_DC1_4_firstCue"/>
+				<Event Id="1186648593" Name="ARI_DC1_4_reply1"/>
 				<Event Id="1186648594" Name="ARI_DC1_4_reply2"/>
 				<Event Id="1186648595" Name="ARI_DC1_4_reply3"/>
 				<Event Id="2473015633" Name="ARI_DC2_1_firstCue"/>
@@ -44,6 +48,7 @@
 				<Event Id="237756442" Name="ARI_DC2_3_reply2"/>
 				<Event Id="237756443" Name="ARI_DC2_3_reply3"/>
 				<Event Id="2197594962" Name="ARI_DC2_4_firstCue"/>
+				<Event Id="2150781112" Name="ARI_DC2_4_reply1"/>
 				<Event Id="2150781115" Name="ARI_DC2_4_reply2"/>
 				<Event Id="2150781114" Name="ARI_DC2_4_reply3"/>
 				<Event Id="1242013260" Name="ARI_DS1_firstCue"/>
@@ -52,15 +57,26 @@
 				<Event Id="3073849588" Name="ARI_DS1_reply3"/>
 				<Event Id="3626435985" Name="ARI_DS2_firstCue"/>
 				<Event Id="1544198503" Name="ARI_DS2_reply1"/>
+				<Event Id="1544198500" Name="ARI_DS2_reply2"/>
 				<Event Id="1544198501" Name="ARI_DS2_reply3"/>
 				<Event Id="481330046" Name="ARI_DS3_firstCue"/>
 				<Event Id="2894117732" Name="ARI_DS3_reply1"/>
 				<Event Id="2894117735" Name="ARI_DS3_reply2"/>
 				<Event Id="2894117734" Name="ARI_DS3_reply3"/>
+				<Event Id="4240768999" Name="ARI_ono_negatives"/>
+				<Event Id="3990056815" Name="ARI_ono_positives"/>
 				<Event Id="1798913884" Name="ARI_RA1_firstCue"/>
+				<Event Id="1580255942" Name="ARI_RA1_reply1"/>
+				<Event Id="1580255941" Name="ARI_RA1_reply2"/>
 				<Event Id="2059356769" Name="ARI_RA2_firstCue"/>
+				<Event Id="3746469751" Name="ARI_RA2_reply1"/>
+				<Event Id="3746469748" Name="ARI_RA2_reply2"/>
 				<Event Id="511183694" Name="ARI_RA3_firstCue"/>
+				<Event Id="1114655220" Name="ARI_RA3_reply1"/>
+				<Event Id="1114655223" Name="ARI_RA3_reply2"/>
 				<Event Id="436105707" Name="ARI_RA4_firstCue"/>
+				<Event Id="1274845517" Name="ARI_RA4_reply1"/>
+				<Event Id="1274845518" Name="ARI_RA4_reply2"/>
 				<Event Id="3695093776" Name="ARI_RI1"/>
 				<Event Id="3695093779" Name="ARI_RI2"/>
 				<Event Id="3695093778" Name="ARI_RI3"/>
@@ -84,8 +100,6 @@
 				<Event Id="3509250838" Name="ARI_RS2_2"/>
 				<Event Id="3509250839" Name="ARI_RS2_3"/>
 				<Event Id="3509250832" Name="ARI_RS2_4"/>
-				<Event Id="1190878779" Name="ARI_RS_onomatopees_negatives"/>
-				<Event Id="3322066083" Name="ARI_RS_onomatopees_positives"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="10635779" Language="English(US)">
@@ -467,7 +481,7 @@
 				<Event Id="3951105902" Name="negatifs"/>
 				<Event Id="1461307238" Name="positifs"/>
 				<Event Id="4034399387" Name="Touch_play"/>
-				<Event Id="2862285649" Name="Touch_stop" MaxAttenuation="0.000000"/>
+				<Event Id="2862285649" Name="Touch_stop"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="963936515"/>
