@@ -197,30 +197,14 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
-     <None Include="Assets\StreamingAssets\Init.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\SoundbanksInfo.xml" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Ariette.txt" />
      <None Include="Assets\Wwise\Readme.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\English(US)\Ariette.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Init.txt" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
      <None Include="Assets\Wwise\Version.txt" />
-     <None Include="Assets\StreamingAssets\English(US)\Ariette.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\PluginInfo.xml" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\StreamingAssets\SoundbanksInfo.xml" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\PluginInfo.xml" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\PluginInfo.xml" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Init.txt" />
      <None Include="Assets\WwiseSettings.xml" />
-     <None Include="Assets\StreamingAssets\PluginInfo.xml" />
      <None Include="Assets\wwise touch me\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\StreamingAssets\Main.txt" />
-     <None Include="Assets\StreamingAssets\desc.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\English(US)\Main.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Init.txt" />
-     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
  <Reference Include="GestureWorksCoreNET32">
  <HintPath>Assets\Plugins\GestureWorks\Core\GestureWorksCoreNET32.dll</HintPath>
  </Reference>
