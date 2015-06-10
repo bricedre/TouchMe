@@ -16,8 +16,8 @@ public class BubbleWiggle : MonoBehaviour {
 	void Start () {
 		position = transform.position;
 		offset = Random.Range (0, 1000);
-		positionWiggleMagnitudeX = Random.Range (1.5f, 2.0f);
-		positionWiggleMagnitudeY = Random.Range (0.7f, 1.0f);
+		positionWiggleMagnitudeX = Random.Range (15f, 20f);
+		positionWiggleMagnitudeY = Random.Range (7f, 10f);
 		vitesseX = Random.Range (0.8f, 1.2f);
 		vitesseY = Random.Range (0.5f, 0.7f);
 	}
@@ -26,5 +26,6 @@ public class BubbleWiggle : MonoBehaviour {
 		transform.position = new Vector3 (position.x + (Mathf.Sin(Time.time * vitesseX + offset) * positionWiggleMagnitudeX / 100.0f),
 		                                  position.y + (Mathf.Sin(Time.time * vitesseY + offset) * positionWiggleMagnitudeY / 100.0f),
 		                                 transform.position.z);
+
 	}
 }

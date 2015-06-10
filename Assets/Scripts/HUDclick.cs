@@ -26,17 +26,17 @@ public class HUDclick : TouchObject {
 
 
 		// DIALOG BUTTONS
-		if(this.function == 1){
+		if(this.function == 1 && scriptDialogs.timer < 0.0f){
 			//Valid 1st answer
 			scriptDialogs.answerChoice = 0;
 			scriptDialogs.answered = true;
 		}
-		if(this.function == 2){
+		if(this.function == 2 && scriptDialogs.timer < 0.0f){
 			// Valid 2nd answer
 			scriptDialogs.answerChoice = 1;
 			scriptDialogs.answered = true;
 		}
-		if(this.function == 3){
+		if(this.function == 3 && scriptDialogs.timer < 0.0f){
 			// Valid 3rd answer
 			scriptDialogs.answerChoice = 2;
 			scriptDialogs.answered = true;

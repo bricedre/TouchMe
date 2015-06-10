@@ -4,22 +4,38 @@ using System.Collections;
 public class PatternScript : MonoBehaviour {
 
 	public int turnsLeft; //nb of turns left to complete
+	private int turnsMax;
 	private int steps;
 	public int currentStep;
 	public GameObject marker;
 	public int errors;
 	public float points;
 	private AudioManager audioManager;
+	public GameObject particleGuide;
+	public int target = 0;
+	public float speed;
+	public float minDistance;
 
 	// get nb of steps
 	void Start () {
-		this.currentStep = 0;
-		this.steps = transform.childCount;
+		currentStep = 0;
+		steps = transform.childCount-1;
+		turnsMax = turnsLeft;
 
 		audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+		particleGuide = transform.FindChild ("GuideParticles").gameObject;
 	}
 
 	void Update () {
+
+		//If it's the first turn
+		if(turnsLeft == turnsMax){
+
+			target = GuideThePlayer(target);
+		}
+		else{
+			particleGuide.SetActive(false);
+		}
 
 		//When a turn is completed
 		if(this.currentStep == this.steps){
@@ -48,5 +64,15 @@ public class PatternScript : MonoBehaviour {
 			}
 			else{}
 		}
+	}
+
+	public int GuideThePlayer(int target){
+
+		particleGuide.transform.position = Vector3.Lerp(particleGuide.transform.position, transform.GetChild(target).transform.position, speed);
+
+		if(Vector3.Distance(particleGuide.transform.position, transform.GetChild(target).transform.position) < minDistance)
+			target = (target + 1) % (transform.childCount-1);
+
+		return target;
 	}
 }
