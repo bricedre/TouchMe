@@ -16,7 +16,7 @@ public class TouchManager : TouchObject {
 	
 	void Start () {
 		cursor = GameObject.FindGameObjectWithTag ("Cursor");
-		cursor.transform.position = new Vector3 (-100.0f, -100.0f, -3.2f);
+		cursor.transform.position = new Vector3 (-100.0f, -100.0f, -18.3f);
 		touches = new List<GestureEvent> ();
 		audioManager = GameObject.Find ("AudioManager").GetComponent<AudioManager>();
 	}
