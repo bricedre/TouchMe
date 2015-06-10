@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" SchemaVersion="10" SoundbankVersion="112">
 	<RootPaths>
-		<ProjectRoot>G:\GitHub\TouchMe\Assets\wwise touch me\</ProjectRoot>
-		<SourceFilesRoot>G:\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>G:\GitHub\TouchMe\Assets\StreamingAssets\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\StreamingAssets\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>G:\GitHub\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -63,6 +63,8 @@
 				<Event Id="2894117732" Name="ARI_DS3_reply1"/>
 				<Event Id="2894117735" Name="ARI_DS3_reply2"/>
 				<Event Id="2894117734" Name="ARI_DS3_reply3"/>
+				<Event Id="4240768999" Name="ARI_ono_negatives"/>
+				<Event Id="3990056815" Name="ARI_ono_positives"/>
 				<Event Id="1798913884" Name="ARI_RA1_firstCue"/>
 				<Event Id="1580255942" Name="ARI_RA1_reply1"/>
 				<Event Id="1580255941" Name="ARI_RA1_reply2"/>
@@ -98,8 +100,6 @@
 				<Event Id="3509250838" Name="ARI_RS2_2"/>
 				<Event Id="3509250839" Name="ARI_RS2_3"/>
 				<Event Id="3509250832" Name="ARI_RS2_4"/>
-				<Event Id="1190878779" Name="ARI_RS_onomatopees_negatives"/>
-				<Event Id="3322066083" Name="ARI_RS_onomatopees_positives"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="10635779" Language="English(US)">
