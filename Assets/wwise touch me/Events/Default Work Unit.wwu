@@ -744,9 +744,9 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Repliques Simples Onomatopees Positives" ID="{5C0EB196-2A22-4508-A8A7-FF58B52320F8}" ShortID="1062139940">
+						<Folder Name="Onomatopees Positives" ID="{5C0EB196-2A22-4508-A8A7-FF58B52320F8}" ShortID="1062139940">
 							<ChildrenList>
-								<Event Name="ARI_RS_onomatopees_positives" ID="{EE2BC592-D994-45ED-A637-E72DC059A09D}">
+								<Event Name="ARI_ono_positive" ID="{EE2BC592-D994-45ED-A637-E72DC059A09D}">
 									<ChildrenList>
 										<Action Name="Play" ID="{1E793F62-286A-4C17-8E61-8186386C1E89}" ShortID="343042948" Type="Play" Scope="One" Global="false">
 											<ElementList>
@@ -759,9 +759,9 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Repliques Simples Onomatopees Negatives" ID="{0820D751-B69E-4F61-B191-8839876657BA}" ShortID="766905098">
+						<Folder Name="Onomatopees Negatives" ID="{0820D751-B69E-4F61-B191-8839876657BA}" ShortID="766905098">
 							<ChildrenList>
-								<Event Name="ARI_RS_onomatopees_negatives" ID="{AFD1C180-4008-4D0B-BEDD-5F3C1C914421}">
+								<Event Name="ARI_ono_negative" ID="{AFD1C180-4008-4D0B-BEDD-5F3C1C914421}">
 									<ChildrenList>
 										<Action Name="Play" ID="{8C47ECE2-EC0F-4B62-9A47-219218A27B88}" ShortID="759808371" Type="Play" Scope="One" Global="false">
 											<ElementList>

@@ -26,7 +26,7 @@
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\wwise touch me.Adrien.wsettings" DateLow="3282228454" DateHigh="30443130"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\ENJMIN\Touch Me\Wwise_touch_me\wwise touch me\wwise touch me.wproj" DateLow="3840224123" DateHigh="30443128"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1509248037" DateHigh="30448748"/>
-	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Actor-Mixer Hierarchy\Main.wwu" DateLow="1509258038" DateHigh="30448748"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Actor-Mixer Hierarchy\Main.wwu" DateLow="3721343296" DateHigh="30450536"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Attenuations\Default Work Unit.wwu" DateLow="1509268038" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Control Surface Sessions\Default Work Unit.wwu" DateLow="1509278039" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Conversion Settings\Default Work Unit(2).wwu" DateLow="1509288040" DateHigh="30448748"/>
@@ -35,7 +35,7 @@
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1509318041" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Effects\Default Work Unit.wwu" DateLow="1509328042" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Effects\Factory Effects.wwu" DateLow="1509338042" DateHigh="30448748"/>
-	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Events\Default Work Unit.wwu" DateLow="1509348043" DateHigh="30448748"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Events\Default Work Unit.wwu" DateLow="3721363297" DateHigh="30450536"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Game Parameters\Default Work Unit.wwu" DateLow="1509358044" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1509728065" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1509738065" DateHigh="30448748"/>
@@ -44,11 +44,11 @@
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Presets\Default Work Unit.wwu" DateLow="1515568399" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Queries\Default Work Unit.wwu" DateLow="1515578399" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Queries\Factory Queries.wwu" DateLow="1515588400" DateHigh="30448748"/>
-	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\SoundBanks\Default Work Unit.wwu" DateLow="1515598401" DateHigh="30448748"/>
-	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1515608401" DateHigh="30448748"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\SoundBanks\Default Work Unit.wwu" DateLow="3728103683" DateHigh="30450536"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3728103683" DateHigh="30450536"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\States\Default Work Unit.wwu" DateLow="1515618402" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Switches\Default Work Unit.wwu" DateLow="1515628402" DateHigh="30448748"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\Triggers\Default Work Unit.wwu" DateLow="1515638403" DateHigh="30448748"/>
-	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\wwise touch me.Adrien.wsettings" DateLow="1515648403" DateHigh="30448748"/>
+	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\wwise touch me.Adrien.wsettings" DateLow="4193576846" DateHigh="30450535"/>
 	<ValidationCacheItem File="C:\Users\Adrien\Documents\GitHub\TouchMe\Assets\wwise touch me\wwise touch me.wproj" DateLow="1515708407" DateHigh="30448748"/>
 </ValidationCache>
