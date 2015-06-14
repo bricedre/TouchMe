@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: c8b5e890c1c38d14eb8d024ecd6c3ae9
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: head_talking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_1
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_2
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_3
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_4
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_5
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_6
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1908
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_9
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_10
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_11
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_12
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_13
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1272
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_15
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_16
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_17
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_18
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_19
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_20
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 636
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_23
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_24
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_25
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_talking_26
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 0
+        width: 537
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

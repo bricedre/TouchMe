@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 09b404dd525ff5847aef8c618635ced3
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: head_Angry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4935
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_1
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 4935
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_2
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 4935
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_3
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 4935
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_4
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 4935
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4230
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 4230
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_7
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 4230
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_8
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 4230
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_9
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 4230
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3525
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3525
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_12
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 3525
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_13
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 3525
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_14
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3525
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2820
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_16
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2820
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_17
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 2820
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_18
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 2820
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_19
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2820
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2115
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_21
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2115
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_22
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 2115
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_23
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 2115
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_24
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2115
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_26
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1410
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_27
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1410
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_28
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1410
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: head_Angry_29
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1410
+        width: 551
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

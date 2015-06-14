@@ -3,26 +3,24 @@ using System.Collections;
 
 public class PointsGauge : MonoBehaviour {
 
-	public float min;
-	public float max;
-	public Animator anim;
-	public float frame;
-
+	private float min;
+	private float max;
 	private float sizeX;
 	private float sizeY;
 	public float magnitude;
 	public float vitesse;
+	public float value;
+	
 	
 	void Start () {
-
-		anim = gameObject.GetComponent<Animator> ();
+		
 		min = GameObject.Find ("GameManager").GetComponent<GameManager> ().minHappiness;
 		max = GameObject.Find ("GameManager").GetComponent<GameManager> ().maxHappiness;
-
 		sizeX = transform.localScale.x;
 		sizeY = transform.localScale.y;
+		
 	}
-
+	
 	void Update () {
 
 		//Oscillating if having points
@@ -32,11 +30,17 @@ public class PointsGauge : MonoBehaviour {
 			                                   transform.localScale.z);
 		}
 
-		//Calculate Value
-		frame = GameObject.Find("GameManager").GetComponent<GameManager>().happiness / max;
+		else{
+
+			transform.localScale = new Vector3(sizeX, sizeY, transform.localScale.z);
+
+		}
 		
-		//Show right frame
-		anim.Play("displacement", -1, frame);
-	
+		//Calculate Value
+		value = GameObject.Find("GameManager").GetComponent<GameManager>().happiness / max;
+		
+		//Place goodly
+		transform.localPosition = new Vector3 (Mathf.Lerp(-12.0f, 12.0f, value), transform.localPosition.y, transform.localPosition.z);
+		
 	}
 }
