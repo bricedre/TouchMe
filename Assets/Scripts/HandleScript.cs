@@ -59,7 +59,27 @@ public class HandleScript: TouchObject {
 
 		}
 
-		else if (gEvent.Phase == GesturePhase.GESTURE_PASSIVE || gEvent.Phase == GesturePhase.GESTURE_END || gEvent.Phase == GesturePhase.GESTURE_RELEASE){
+		else if (gEvent.Phase == GesturePhase.GESTURE_PASSIVE){
+			rigidbody.isKinematic = false;
+			if(parentScript.stretchRatio > 1.2f && !musicPlayed){
+				audioManager.playEvent ("corps_elastique");
+				musicPlayed = true;
+				parentScript.stretchProgression += 0.07f;
+			}
+				
+		}
+
+		else if (gEvent.Phase == GesturePhase.GESTURE_END){
+			rigidbody.isKinematic = false;
+			if(parentScript.stretchRatio > 1.2f && !musicPlayed){
+				audioManager.playEvent ("corps_elastique");
+				musicPlayed = true;
+				parentScript.stretchProgression += 0.07f;
+			}
+			
+		}
+
+		else if (gEvent.Phase == GesturePhase.GESTURE_RELEASE){
 			rigidbody.isKinematic = false;
 			if(parentScript.stretchRatio > 1.2f && !musicPlayed){
 				audioManager.playEvent ("corps_elastique");
